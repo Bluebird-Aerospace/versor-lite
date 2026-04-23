@@ -7,5 +7,5 @@
 *.asv
 .DS_Store
 kicad_files/*.kicad_sch.lck
-kicad_files/versor-backups
+kicad_files/versorlite-backups
 kicad_files/.history/
