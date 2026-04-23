@@ -1,0 +1,11 @@
+# ignore backup files
+*.*~
+.*~
+# ignore swap files
+*.swp
+*.swo
+*.asv
+.DS_Store
+kicad_files/*.kicad_sch.lck
+kicad_files/versor-backups
+kicad_files/.history/
