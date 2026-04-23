@@ -4352,7 +4352,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 110.49) (xy 163.83 110.49)
+			(xy 154.94 110.49) (xy 165.1 110.49)
 		)
 		(stroke
 			(width 0)
@@ -5071,7 +5071,7 @@
 		(uuid "53b82a1a-5056-49e8-826a-198e4a2976c3")
 	)
 	(label "3V3_MCU"
-		(at 153.67 110.49 0)
+		(at 154.94 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7291,7 +7291,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 168.91 110.49 0)
+		(at 170.18 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7302,7 +7302,7 @@
 		(fields_autoplaced yes)
 		(uuid "807ed289-a0b6-4b5e-8fb3-e6080dc91c11")
 		(property "Reference" "SW1"
-			(at 168.91 102.87 0)
+			(at 170.18 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7312,7 +7312,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 168.91 105.41 0)
+			(at 170.18 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7322,7 +7322,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS810"
-			(at 168.91 105.41 0)
+			(at 170.18 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7333,7 +7333,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 105.41 0)
+			(at 170.18 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7344,7 +7344,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 168.91 110.49 0)
+			(at 170.18 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
