@@ -9817,7 +9817,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10μf"
+		(property "Value" "1μf"
 			(at 184.15 36.8235 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9828,7 +9828,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 181.61 35.56 0)
 			(hide yes)
 			(show_name no)

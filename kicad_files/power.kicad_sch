@@ -1897,29 +1897,27 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
+			(property "Reference" "Q1"
+				(at 8.89 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "Q_PMOS_GSD"
-				(at 5.08 0 0)
+			(property "Value" "FDMC510P-MS"
+				(at 6.35 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.65mm_EP1.6x2.56mm_ThermalVias"
 				(at 5.08 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4516,7 +4514,7 @@
 				)
 			)
 		)
-		(property "Value" "JMTQ55P02A"
+		(property "Value" "FDMC510P-MS"
 			(at 63.5 135.89 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4559,10 +4557,10 @@
 				)
 			)
 		)
-		(pin "3"
+		(pin "1"
 			(uuid "c3418509-ac75-4a84-bbee-41d6fd018e9a")
 		)
-		(pin "1"
+		(pin "3"
 			(uuid "e21f2219-ad05-401c-89f6-9b203ff9ed35")
 		)
 		(pin "2"
