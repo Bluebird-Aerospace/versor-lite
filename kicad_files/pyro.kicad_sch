@@ -1691,7 +1691,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D_Schottky_Small"
+		(property "Value" "CUS10S30,H3F"
 			(at 138.43 56.134 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1702,7 +1702,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 135.89 54.61 90)
 			(hide yes)
 			(show_name no)

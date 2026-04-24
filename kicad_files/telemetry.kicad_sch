@@ -5,17 +5,14 @@
 	(uuid "bdd97166-2069-40f4-80ca-41c6ab9256c3")
 	(paper "A4")
 	(lib_symbols
-		(symbol "74xx:74AHCT125"
-			(pin_names
-				(offset 1.016)
-			)
+		(symbol "74xGxx:74LVC1G125"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at 0 1.27 0)
+				(at -10.16 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -24,8 +21,8 @@
 					)
 				)
 			)
-			(property "Value" "74AHCT125"
-				(at 0 -1.27 0)
+			(property "Value" "74LVC1G125"
+				(at 2.54 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -45,7 +42,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahct125.pdf"
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -56,7 +53,7 @@
 					)
 				)
 			)
-			(property "Description" "Quadruple Bus Buffer Gates With 3-State Outputs"
+			(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -67,17 +64,7 @@
 					)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "buffer 3State"
+			(property "ki_keywords" "Single Gate Buff Tri-State LVC CMOS"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -88,7 +75,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "DIP*W7.62mm* SO14* SSOP?14* TSSOP?14* SOIC*3.9x8.7mm*P1.27mm*"
+			(property "ki_fp_filters" "SOT?23* Texas?R-PDSO-G5?DCK* Texas?R-PDSO-N5?DRL* Texas?X2SON*0.8x0.8mm*P0.48mm*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -99,10 +86,10 @@
 					)
 				)
 			)
-			(symbol "74AHCT125_1_0"
+			(symbol "74LVC1G125_0_1"
 				(polyline
 					(pts
-						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+						(xy -7.62 6.35) (xy -7.62 -6.35) (xy 5.08 0) (xy -7.62 6.35)
 					)
 					(stroke
 						(width 0.254)
@@ -112,9 +99,11 @@
 						(type background)
 					)
 				)
+			)
+			(symbol "74LVC1G125_1_1"
 				(pin input inverted
-					(at 0 -6.35 90)
-					(length 4.445)
+					(at 0 10.16 270)
+					(length 7.62)
 					(name ""
 						(effects
 							(font
@@ -131,8 +120,8 @@
 					)
 				)
 				(pin input line
-					(at -7.62 0 0)
-					(length 3.81)
+					(at -15.24 0 0)
+					(length 7.62)
 					(name ""
 						(effects
 							(font
@@ -148,10 +137,10 @@
 						)
 					)
 				)
-				(pin tri_state line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name ""
+				(pin power_in line
+					(at -5.08 -10.16 90)
+					(length 5.08)
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -166,23 +155,9 @@
 						)
 					)
 				)
-			)
-			(symbol "74AHCT125_2_0"
-				(polyline
-					(pts
-						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input inverted
-					(at 0 -6.35 90)
-					(length 4.445)
+				(pin tri_state line
+					(at 12.7 0 180)
+					(length 7.62)
 					(name ""
 						(effects
 							(font
@@ -198,10 +173,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -7.62 0 0)
-					(length 3.81)
-					(name ""
+				(pin power_in line
+					(at -5.08 10.16 270)
+					(length 5.08)
+					(name "VCC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -214,211 +189,6 @@
 								(size 1.27 1.27)
 							)
 						)
-					)
-				)
-				(pin tri_state line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74AHCT125_3_0"
-				(polyline
-					(pts
-						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin tri_state line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 0 0)
-					(length 3.81)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input inverted
-					(at 0 -6.35 90)
-					(length 4.445)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74AHCT125_4_0"
-				(polyline
-					(pts
-						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin tri_state line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 0 0)
-					(length 3.81)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input inverted
-					(at 0 -6.35 90)
-					(length 4.445)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74AHCT125_5_0"
-				(pin power_in line
-					(at 0 -12.7 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 12.7 270)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74AHCT125_5_1"
-				(rectangle
-					(start -5.08 7.62)
-					(end 5.08 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
 					)
 				)
 			)
@@ -5143,13 +4913,13 @@
 		(uuid "aaf8e478-5c73-42d9-916d-d7c589226dd3")
 	)
 	(junction
-		(at 71.12 72.39)
+		(at 80.01 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c2f36637-5a49-4e77-9da9-8d21ce718904")
 	)
 	(junction
-		(at 71.12 76.2)
+		(at 80.01 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc938c9a-5e34-4bc5-8a68-c78bed621a0e")
@@ -5179,22 +4949,14 @@
 		(uuid "eff3eb13-764b-4068-bf70-4c42bcf8d609")
 	)
 	(junction
-		(at 109.22 74.93)
+		(at 118.11 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f303aa72-5197-41e2-834a-95c339b8afa9")
 	)
 	(no_connect
-		(at 116.84 85.09)
+		(at 125.73 86.36)
 		(uuid "0a7d13b3-d3ec-4e0c-a927-186396d4d28b")
-	)
-	(no_connect
-		(at 45.72 143.51)
-		(uuid "0f740c7c-e462-4351-ac63-9aa2bc1e709d")
-	)
-	(no_connect
-		(at 36.83 128.27)
-		(uuid "1446f0cc-3fbc-45d8-ae06-796f8f093368")
 	)
 	(no_connect
 		(at 217.17 97.79)
@@ -5203,10 +4965,6 @@
 	(no_connect
 		(at 119.38 146.05)
 		(uuid "8ccee95c-0fcd-4ea6-8fae-78c16b95a1bb")
-	)
-	(no_connect
-		(at 60.96 130.81)
-		(uuid "bf891226-db7f-4a5b-98f6-7f9fc012890c")
 	)
 	(no_connect
 		(at 217.17 95.25)
@@ -5238,7 +4996,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 85.09) (xy 63.5 85.09)
+			(xy 68.58 86.36) (xy 72.39 86.36)
 		)
 		(stroke
 			(width 0)
@@ -5248,7 +5006,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 69.85) (xy 71.12 72.39)
+			(xy 80.01 71.12) (xy 80.01 73.66)
 		)
 		(stroke
 			(width 0)
@@ -5298,7 +5056,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 85.09) (xy 101.6 85.09)
+			(xy 87.63 86.36) (xy 110.49 86.36)
 		)
 		(stroke
 			(width 0)
@@ -5328,7 +5086,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 92.71) (xy 109.22 99.06)
+			(xy 118.11 93.98) (xy 118.11 100.33)
 		)
 		(stroke
 			(width 0)
@@ -5348,7 +5106,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 92.71) (xy 71.12 99.06)
+			(xy 80.01 93.98) (xy 80.01 100.33)
 		)
 		(stroke
 			(width 0)
@@ -5558,7 +5316,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 85.09) (xy 54.61 85.09)
+			(xy 60.96 86.36) (xy 63.5 86.36)
 		)
 		(stroke
 			(width 0)
@@ -5608,7 +5366,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 72.39) (xy 71.12 76.2)
+			(xy 80.01 73.66) (xy 80.01 77.47)
 		)
 		(stroke
 			(width 0)
@@ -5638,7 +5396,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 74.93) (xy 109.22 77.47)
+			(xy 118.11 76.2) (xy 118.11 78.74)
 		)
 		(stroke
 			(width 0)
@@ -5658,7 +5416,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 76.2) (xy 71.12 77.47)
+			(xy 80.01 77.47) (xy 80.01 78.74)
 		)
 		(stroke
 			(width 0)
@@ -5748,16 +5506,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 110.49) (xy 31.75 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9da6ede2-c1c2-4911-9a31-196d5fb21819")
-	)
-	(wire
-		(pts
 			(xy 158.75 153.67) (xy 166.37 153.67)
 		)
 		(stroke
@@ -5798,7 +5546,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 71.12) (xy 109.22 74.93)
+			(xy 118.11 72.39) (xy 118.11 76.2)
 		)
 		(stroke
 			(width 0)
@@ -6106,7 +5854,7 @@
 	)
 	(hierarchical_label "LED_TIM2_CH1"
 		(shape input)
-		(at 36.83 85.09 180)
+		(at 33.02 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6172,7 +5920,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 104.14 74.93 270)
+		(at 113.03 76.2 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6183,7 +5931,7 @@
 		(fields_autoplaced yes)
 		(uuid "0015ee03-c683-469c-98b7-45ab53a964ed")
 		(property "Reference" "#PWR061"
-			(at 97.79 74.93 0)
+			(at 106.68 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6194,7 +5942,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 100.33 74.9299 90)
+			(at 109.22 76.1999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6205,7 +5953,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 74.93 0)
+			(at 113.03 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6216,7 +5964,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 74.93 0)
+			(at 113.03 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6227,7 +5975,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 104.14 74.93 0)
+			(at 113.03 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6332,7 +6080,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 71.12 69.85 0)
+		(at 80.01 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6343,7 +6091,7 @@
 		(fields_autoplaced yes)
 		(uuid "03f49aa0-cf40-4257-b5b1-896311668424")
 		(property "Reference" "#PWR058"
-			(at 71.12 73.66 0)
+			(at 80.01 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6354,7 +6102,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 71.12 64.77 0)
+			(at 80.01 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6364,7 +6112,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 69.85 0)
+			(at 80.01 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6375,7 +6123,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 69.85 0)
+			(at 80.01 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6386,7 +6134,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 71.12 69.85 0)
+			(at 80.01 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6825,7 +6573,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 73.66 76.2 90)
+		(at 82.55 77.47 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6835,7 +6583,7 @@
 		(dnp no)
 		(uuid "0f452280-a73c-4153-9e3b-9029c3f6a76c")
 		(property "Reference" "C43"
-			(at 73.6663 72.898 90)
+			(at 82.5563 74.168 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6845,7 +6593,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 74.676 78.74 90)
+			(at 83.566 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6855,7 +6603,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 73.66 76.2 0)
+			(at 82.55 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6866,7 +6614,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 76.2 0)
+			(at 82.55 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6877,7 +6625,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 73.66 76.2 0)
+			(at 82.55 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7340,84 +7088,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 53.34 137.16 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "20bdea12-820c-49de-a095-e25ce6510c35")
-		(property "Reference" "#PWR056"
-			(at 53.34 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 53.34 142.24 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2f7d63bd-4f55-4ce9-8625-5dab97198b8f")
-		)
-		(instances
-			(project "versorlite"
-				(path "/1a230af0-0a74-48f7-8607-b087121dda49/4d884b5c-b332-4347-90a4-1c2e65497882"
-					(reference "#PWR056")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 165.1 161.29 90)
 		(unit 1)
 		(body_style 1)
@@ -7575,7 +7245,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 71.12 72.39 90)
+		(at 80.01 73.66 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7586,7 +7256,7 @@
 		(fields_autoplaced yes)
 		(uuid "2d9f04d3-a09f-4418-b9fc-c169be13fede")
 		(property "Reference" "#FLG03"
-			(at 69.215 72.39 0)
+			(at 78.105 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7597,7 +7267,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 67.31 72.3899 90)
+			(at 76.2 73.6599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7608,7 +7278,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 72.39 0)
+			(at 80.01 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7619,7 +7289,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 72.39 0)
+			(at 80.01 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7630,7 +7300,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 71.12 72.39 0)
+			(at 80.01 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7654,7 +7324,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 71.12 99.06 0)
+		(at 80.01 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7665,7 +7335,7 @@
 		(fields_autoplaced yes)
 		(uuid "3059f08d-1fa3-47c8-b176-44f85e3719d5")
 		(property "Reference" "#PWR059"
-			(at 71.12 105.41 0)
+			(at 80.01 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7676,7 +7346,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 71.12 104.14 0)
+			(at 80.01 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7686,7 +7356,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 99.06 0)
+			(at 80.01 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7697,7 +7367,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 99.06 0)
+			(at 80.01 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7708,7 +7378,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 71.12 99.06 0)
+			(at 80.01 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7732,7 +7402,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B-2020")
-		(at 109.22 85.09 0)
+		(at 118.11 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7743,7 +7413,7 @@
 		(fields_autoplaced yes)
 		(uuid "3721ff73-7961-4b2a-9ffe-5f266d1e0e7b")
 		(property "Reference" "D3"
-			(at 123.19 78.6698 0)
+			(at 132.08 79.9398 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7753,7 +7423,7 @@
 			)
 		)
 		(property "Value" "WS2812B-2020"
-			(at 123.19 81.2098 0)
+			(at 132.08 82.4798 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7763,7 +7433,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 110.49 92.71 0)
+			(at 119.38 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7775,7 +7445,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-			(at 111.76 94.615 0)
+			(at 120.65 95.885 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7787,7 +7457,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 109.22 85.09 0)
+			(at 118.11 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7814,122 +7484,6 @@
 				(path "/1a230af0-0a74-48f7-8607-b087121dda49/4d884b5c-b332-4347-90a4-1c2e65497882"
 					(reference "D3")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx:74AHCT125")
-		(at 29.21 128.27 0)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "47815ac6-6e75-44b9-896d-256f32657f02")
-		(property "Reference" "U8"
-			(at 29.21 119.38 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74AHCT125"
-			(at 29.21 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 29.21 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahct125.pdf"
-			(at 29.21 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Quadruple Bus Buffer Gates With 3-State Outputs"
-			(at 29.21 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "7"
-			(uuid "fe5cc8e4-a4fd-46b4-aefe-f0af0b5c7b69")
-		)
-		(pin "14"
-			(uuid "d42d5853-6af2-46b6-8ef8-a28a1c9ff636")
-		)
-		(pin "6"
-			(uuid "260642f6-2a5c-4a80-8d9a-8e11af13dfe0")
-		)
-		(pin "3"
-			(uuid "7447b992-7cf6-4568-b783-8ac9655a6548")
-		)
-		(pin "4"
-			(uuid "ab9e20e7-04b8-49c8-b4e1-ee09b0d966f7")
-		)
-		(pin "9"
-			(uuid "a754f1bc-ec47-46e1-b09d-32501152aee3")
-		)
-		(pin "5"
-			(uuid "0cbba9d4-19ab-4920-ad6a-357ff01ed9f8")
-		)
-		(pin "13"
-			(uuid "e82399ea-2ef5-49f7-a0bd-d1b3532c4c5d")
-		)
-		(pin "8"
-			(uuid "3bfc0418-6394-4888-a708-ea57ac1604f1")
-		)
-		(pin "10"
-			(uuid "7e045af7-9a26-479f-b9dd-1c7e70d6b24c")
-		)
-		(pin "2"
-			(uuid "730778fe-60a3-49c0-808e-ac4b2907e288")
-		)
-		(pin "1"
-			(uuid "83eebd3a-56eb-4599-81fc-ffd65377d7c7")
-		)
-		(pin "11"
-			(uuid "f9397c62-12a4-492e-a8be-b4fa89b23279")
-		)
-		(pin "12"
-			(uuid "1e2a2f38-9d24-4072-842a-88a0f19a33a8")
-		)
-		(instances
-			(project "versorlite"
-				(path "/1a230af0-0a74-48f7-8607-b087121dda49/4d884b5c-b332-4347-90a4-1c2e65497882"
-					(reference "U8")
-					(unit 2)
 				)
 			)
 		)
@@ -8061,7 +7615,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B-2020")
-		(at 71.12 85.09 0)
+		(at 80.01 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8072,7 +7626,7 @@
 		(fields_autoplaced yes)
 		(uuid "4c888044-445c-4a79-8af0-cbb92ea91d03")
 		(property "Reference" "D2"
-			(at 85.09 78.6698 0)
+			(at 93.98 79.9398 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8082,7 +7636,7 @@
 			)
 		)
 		(property "Value" "WS2812B-2020"
-			(at 85.09 81.2098 0)
+			(at 93.98 82.4798 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8092,7 +7646,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
-			(at 72.39 92.71 0)
+			(at 81.28 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8104,7 +7658,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
-			(at 73.66 94.615 0)
+			(at 82.55 95.885 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8116,7 +7670,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
-			(at 71.12 85.09 0)
+			(at 80.01 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8149,7 +7703,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 76.2 76.2 90)
+		(at 85.09 77.47 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8160,7 +7714,7 @@
 		(fields_autoplaced yes)
 		(uuid "54d7a53b-65d4-40a2-b7d6-de27a63b07ae")
 		(property "Reference" "#PWR060"
-			(at 82.55 76.2 0)
+			(at 91.44 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8171,7 +7725,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 80.01 76.1999 90)
+			(at 88.9 77.4699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8182,7 +7736,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 76.2 0)
+			(at 85.09 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8193,7 +7747,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 76.2 0)
+			(at 85.09 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8204,7 +7758,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 76.2 0)
+			(at 85.09 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8300,122 +7854,6 @@
 				(path "/1a230af0-0a74-48f7-8607-b087121dda49/4d884b5c-b332-4347-90a4-1c2e65497882"
 					(reference "#PWR065")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx:74AHCT125")
-		(at 38.1 143.51 0)
-		(unit 4)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5873b8b4-a40f-4565-979d-37c4621ed74f")
-		(property "Reference" "U8"
-			(at 38.1 134.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74AHCT125"
-			(at 38.1 137.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 38.1 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahct125.pdf"
-			(at 38.1 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Quadruple Bus Buffer Gates With 3-State Outputs"
-			(at 38.1 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "7"
-			(uuid "fe5cc8e4-a4fd-46b4-aefe-f0af0b5c7b6a")
-		)
-		(pin "14"
-			(uuid "d42d5853-6af2-46b6-8ef8-a28a1c9ff637")
-		)
-		(pin "6"
-			(uuid "260642f6-2a5c-4a80-8d9a-8e11af13dfe1")
-		)
-		(pin "3"
-			(uuid "7447b992-7cf6-4568-b783-8ac9655a6549")
-		)
-		(pin "4"
-			(uuid "ab9e20e7-04b8-49c8-b4e1-ee09b0d966f8")
-		)
-		(pin "9"
-			(uuid "a754f1bc-ec47-46e1-b09d-32501152aee4")
-		)
-		(pin "5"
-			(uuid "0cbba9d4-19ab-4920-ad6a-357ff01ed9f9")
-		)
-		(pin "13"
-			(uuid "e82399ea-2ef5-49f7-a0bd-d1b3532c4c5e")
-		)
-		(pin "8"
-			(uuid "3bfc0418-6394-4888-a708-ea57ac1604f2")
-		)
-		(pin "10"
-			(uuid "7e045af7-9a26-479f-b9dd-1c7e70d6b24d")
-		)
-		(pin "2"
-			(uuid "730778fe-60a3-49c0-808e-ac4b2907e289")
-		)
-		(pin "1"
-			(uuid "83eebd3a-56eb-4599-81fc-ffd65377d7c8")
-		)
-		(pin "11"
-			(uuid "f9397c62-12a4-492e-a8be-b4fa89b2327a")
-		)
-		(pin "12"
-			(uuid "1e2a2f38-9d24-4072-842a-88a0f19a33a9")
-		)
-		(instances
-			(project "versorlite"
-				(path "/1a230af0-0a74-48f7-8607-b087121dda49/4d884b5c-b332-4347-90a4-1c2e65497882"
-					(reference "U8")
-					(unit 4)
 				)
 			)
 		)
@@ -8571,6 +8009,95 @@
 			(project "versorlite"
 				(path "/1a230af0-0a74-48f7-8607-b087121dda49/4d884b5c-b332-4347-90a4-1c2e65497882"
 					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at 48.26 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68344018-a296-49fc-8f37-85c65e3238c1")
+		(property "Reference" "U13"
+			(at 60.96 79.9398 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at 60.96 82.4798 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 48.26 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at 48.26 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at 48.26 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "7621f45f-1d38-47af-86bb-27c491d8876e")
+		)
+		(pin "1"
+			(uuid "403efd6a-1582-4da6-8e3c-919deddc107b")
+		)
+		(pin "5"
+			(uuid "e9ad0e51-8163-4a71-993b-8bda3c617a4f")
+		)
+		(pin "2"
+			(uuid "faf68e9d-c7ec-45b8-a1e0-44cf4cdf6f41")
+		)
+		(pin "4"
+			(uuid "0e71a216-6195-403d-a388-8058c678a3fe")
+		)
+		(instances
+			(project "versorlite"
+				(path "/1a230af0-0a74-48f7-8607-b087121dda49/4d884b5c-b332-4347-90a4-1c2e65497882"
+					(reference "U13")
 					(unit 1)
 				)
 			)
@@ -8814,7 +8341,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 44.45 91.44 0)
+		(at 43.18 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8823,9 +8350,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "85f416ff-7693-4add-9355-94e00c760827")
-		(property "Reference" "#PWR054"
-			(at 44.45 97.79 0)
+		(uuid "8c7b2035-7330-4fb6-b3d3-4fac6c24f042")
+		(property "Reference" "#PWR097"
+			(at 43.18 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8836,7 +8363,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 44.45 96.52 0)
+			(at 43.18 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8846,7 +8373,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 91.44 0)
+			(at 43.18 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8857,7 +8384,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 91.44 0)
+			(at 43.18 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8868,7 +8395,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 44.45 91.44 0)
+			(at 43.18 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8879,91 +8406,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "06b0268f-4709-40e0-9734-cd279408c5a0")
+			(uuid "7482fc19-f427-4124-b3f3-2e30364c6684")
 		)
 		(instances
 			(project "versorlite"
 				(path "/1a230af0-0a74-48f7-8607-b087121dda49/4d884b5c-b332-4347-90a4-1c2e65497882"
-					(reference "#PWR054")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 30.48 110.49 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8a3fee14-3473-4c92-a537-53272dc8bc16")
-		(property "Reference" "#PWR050"
-			(at 34.29 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 26.67 110.4899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 30.48 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 30.48 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "657c67dd-a1d0-4ea0-a602-898b2d70f00e")
-		)
-		(instances
-			(project "versorlite"
-				(path "/1a230af0-0a74-48f7-8607-b087121dda49/4d884b5c-b332-4347-90a4-1c2e65497882"
-					(reference "#PWR050")
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -8971,7 +8419,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 57.15 110.49 90)
+		(at 48.26 76.2 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8980,9 +8428,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "92f59e5b-90fa-413d-af08-538b79d4418f")
-		(property "Reference" "#PWR057"
-			(at 63.5 110.49 0)
+		(uuid "900deb0f-9d72-4755-a47c-780a193e0c92")
+		(property "Reference" "#PWR098"
+			(at 48.26 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8993,18 +8441,17 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 60.96 110.4899 90)
+			(at 48.26 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 110.49 0)
+			(at 48.26 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9015,7 +8462,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 110.49 0)
+			(at 48.26 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9026,7 +8473,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 57.15 110.49 0)
+			(at 48.26 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9037,12 +8484,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ee6cd425-ce8a-42f6-a5b9-eafab885b599")
+			(uuid "460e1c05-4b93-4eec-ba23-f5377541a819")
 		)
 		(instances
 			(project "versorlite"
 				(path "/1a230af0-0a74-48f7-8607-b087121dda49/4d884b5c-b332-4347-90a4-1c2e65497882"
-					(reference "#PWR057")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -9128,124 +8575,8 @@
 		)
 	)
 	(symbol
-		(lib_id "74xx:74AHCT125")
-		(at 53.34 130.81 0)
-		(unit 3)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "94df3b13-8f92-4017-bbf7-e85e9347f9db")
-		(property "Reference" "U8"
-			(at 53.34 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74AHCT125"
-			(at 53.34 124.46 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 53.34 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahct125.pdf"
-			(at 53.34 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Quadruple Bus Buffer Gates With 3-State Outputs"
-			(at 53.34 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "7"
-			(uuid "fe5cc8e4-a4fd-46b4-aefe-f0af0b5c7b6b")
-		)
-		(pin "14"
-			(uuid "d42d5853-6af2-46b6-8ef8-a28a1c9ff638")
-		)
-		(pin "6"
-			(uuid "260642f6-2a5c-4a80-8d9a-8e11af13dfe2")
-		)
-		(pin "3"
-			(uuid "7447b992-7cf6-4568-b783-8ac9655a654a")
-		)
-		(pin "4"
-			(uuid "ab9e20e7-04b8-49c8-b4e1-ee09b0d966f9")
-		)
-		(pin "9"
-			(uuid "a754f1bc-ec47-46e1-b09d-32501152aee5")
-		)
-		(pin "5"
-			(uuid "0cbba9d4-19ab-4920-ad6a-357ff01ed9fa")
-		)
-		(pin "13"
-			(uuid "e82399ea-2ef5-49f7-a0bd-d1b3532c4c5f")
-		)
-		(pin "8"
-			(uuid "3bfc0418-6394-4888-a708-ea57ac1604f3")
-		)
-		(pin "10"
-			(uuid "7e045af7-9a26-479f-b9dd-1c7e70d6b24e")
-		)
-		(pin "2"
-			(uuid "730778fe-60a3-49c0-808e-ac4b2907e28a")
-		)
-		(pin "1"
-			(uuid "83eebd3a-56eb-4599-81fc-ffd65377d7c9")
-		)
-		(pin "11"
-			(uuid "f9397c62-12a4-492e-a8be-b4fa89b2327b")
-		)
-		(pin "12"
-			(uuid "1e2a2f38-9d24-4072-842a-88a0f19a33aa")
-		)
-		(instances
-			(project "versorlite"
-				(path "/1a230af0-0a74-48f7-8607-b087121dda49/4d884b5c-b332-4347-90a4-1c2e65497882"
-					(reference "U8")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 57.15 85.09 90)
+		(at 66.04 86.36 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9256,7 +8587,7 @@
 		(fields_autoplaced yes)
 		(uuid "96af86b0-2f92-4c4a-a54f-c2e4f0847936")
 		(property "Reference" "R10"
-			(at 57.15 78.74 90)
+			(at 66.04 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9266,7 +8597,7 @@
 			)
 		)
 		(property "Value" "470Ω"
-			(at 57.15 81.28 90)
+			(at 66.04 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9276,7 +8607,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 57.15 85.09 0)
+			(at 66.04 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9287,7 +8618,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 85.09 0)
+			(at 66.04 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9298,7 +8629,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 57.15 85.09 0)
+			(at 66.04 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9396,85 +8727,6 @@
 			(project "versorlite"
 				(path "/1a230af0-0a74-48f7-8607-b087121dda49/4d884b5c-b332-4347-90a4-1c2e65497882"
 					(reference "#PWR070")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 30.48 143.51 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9ef79f17-dd6d-4c81-b2f4-847d77067261")
-		(property "Reference" "#PWR051"
-			(at 24.13 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 26.67 143.5099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 30.48 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 30.48 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "87dfef25-7f1d-41ad-bce4-52d633b00fc3")
-		)
-		(instances
-			(project "versorlite"
-				(path "/1a230af0-0a74-48f7-8607-b087121dda49/4d884b5c-b332-4347-90a4-1c2e65497882"
-					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -9807,122 +9059,6 @@
 		)
 	)
 	(symbol
-		(lib_id "74xx:74AHCT125")
-		(at 44.45 85.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b1e6b8d5-c260-4d29-9ab2-d0a38fcb4aca")
-		(property "Reference" "U8"
-			(at 44.45 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74AHCT125"
-			(at 44.45 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 44.45 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahct125.pdf"
-			(at 44.45 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Quadruple Bus Buffer Gates With 3-State Outputs"
-			(at 44.45 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "629c6243-4b81-4325-aa8b-a1c64dd6d721")
-		)
-		(pin "7"
-			(uuid "51229835-0ffd-473f-9216-5a28e2e77d74")
-		)
-		(pin "10"
-			(uuid "463da62c-cd44-42ab-920e-358123aaf626")
-		)
-		(pin "11"
-			(uuid "9a978222-eafd-496b-b680-43b2710805e4")
-		)
-		(pin "6"
-			(uuid "642f7c8e-fa2b-4585-8cf5-1efbedaf0097")
-		)
-		(pin "12"
-			(uuid "dbb5536d-77bf-4f6c-b161-34da3cb81e91")
-		)
-		(pin "3"
-			(uuid "409ec1bd-37f1-4c69-ba97-6cab0936f4af")
-		)
-		(pin "8"
-			(uuid "044c1736-504c-4dce-b68d-4e20cac86f77")
-		)
-		(pin "13"
-			(uuid "e6dadc8a-3902-43df-971e-014b1f7973e9")
-		)
-		(pin "2"
-			(uuid "923b9812-d82d-4f9f-94e5-51422a54bb23")
-		)
-		(pin "1"
-			(uuid "62201395-c355-400a-bb72-fc9f1f4191df")
-		)
-		(pin "14"
-			(uuid "8ae2e716-339a-4738-bb89-2f8e76c974bf")
-		)
-		(pin "9"
-			(uuid "3da8f51c-ea05-4e5e-98bd-e9d2690be44e")
-		)
-		(pin "4"
-			(uuid "b5cd4b03-2420-464d-8590-682051b62893")
-		)
-		(instances
-			(project "versorlite"
-				(path "/1a230af0-0a74-48f7-8607-b087121dda49/4d884b5c-b332-4347-90a4-1c2e65497882"
-					(reference "U8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_TVS")
 		(at 223.52 60.96 90)
 		(unit 1)
@@ -10221,7 +9357,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 106.68 74.93 90)
+		(at 115.57 76.2 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10231,7 +9367,7 @@
 		(dnp no)
 		(uuid "c05e1a82-ae5f-4087-ba0f-88da7d492603")
 		(property "Reference" "C44"
-			(at 106.6863 71.628 90)
+			(at 115.5763 72.898 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10241,7 +9377,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 107.696 77.47 90)
+			(at 116.586 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10251,7 +9387,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 106.68 74.93 0)
+			(at 115.57 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10262,7 +9398,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 74.93 0)
+			(at 115.57 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10273,7 +9409,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 106.68 74.93 0)
+			(at 115.57 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10456,86 +9592,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 45.72 130.81 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c9cdf526-6ccd-4314-bf7b-49f186ddc4ec")
-		(property "Reference" "#PWR055"
-			(at 39.37 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 41.91 130.8099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 45.72 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 45.72 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "18a0ca6f-8307-4925-b739-eb38f18a8e7e")
-		)
-		(instances
-			(project "versorlite"
-				(path "/1a230af0-0a74-48f7-8607-b087121dda49/4d884b5c-b332-4347-90a4-1c2e65497882"
-					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 109.22 99.06 0)
+		(at 118.11 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10546,7 +9603,7 @@
 		(fields_autoplaced yes)
 		(uuid "cd446ebb-79c4-421a-95a2-e44f1f9f1430")
 		(property "Reference" "#PWR063"
-			(at 109.22 105.41 0)
+			(at 118.11 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10557,7 +9614,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 109.22 104.14 0)
+			(at 118.11 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10567,7 +9624,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 99.06 0)
+			(at 118.11 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10578,7 +9635,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 99.06 0)
+			(at 118.11 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10589,7 +9646,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 99.06 0)
+			(at 118.11 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10774,7 +9831,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 109.22 71.12 0)
+		(at 118.11 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10785,7 +9842,7 @@
 		(fields_autoplaced yes)
 		(uuid "d3e0fc0e-d5e8-415c-bd89-6f1b91aa606e")
 		(property "Reference" "#PWR062"
-			(at 109.22 74.93 0)
+			(at 118.11 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10796,7 +9853,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 109.22 66.04 0)
+			(at 118.11 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10806,7 +9863,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 71.12 0)
+			(at 118.11 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10817,7 +9874,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 71.12 0)
+			(at 118.11 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10828,7 +9885,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 109.22 71.12 0)
+			(at 118.11 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10845,85 +9902,6 @@
 			(project "versorlite"
 				(path "/1a230af0-0a74-48f7-8607-b087121dda49/4d884b5c-b332-4347-90a4-1c2e65497882"
 					(reference "#PWR062")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 21.59 128.27 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d4d4a1cd-65ac-4948-bf58-281d120fa250")
-		(property "Reference" "#PWR048"
-			(at 15.24 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 17.78 128.2699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 21.59 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 21.59 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 21.59 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a1a095cb-9a4b-4a69-a9e7-1260d2002c2e")
-		)
-		(instances
-			(project "versorlite"
-				(path "/1a230af0-0a74-48f7-8607-b087121dda49/4d884b5c-b332-4347-90a4-1c2e65497882"
-					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -11088,124 +10066,8 @@
 		)
 	)
 	(symbol
-		(lib_id "74xx:74AHCT125")
-		(at 44.45 110.49 90)
-		(unit 5)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ec9c99e3-76f3-4c14-b3fa-ab3a8b3e054f")
-		(property "Reference" "U8"
-			(at 44.45 100.33 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74AHCT125"
-			(at 44.45 102.87 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 44.45 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahct125.pdf"
-			(at 44.45 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Quadruple Bus Buffer Gates With 3-State Outputs"
-			(at 44.45 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "08c7718d-2de4-47c2-94ed-7ec9df8e7ad5")
-		)
-		(pin "3"
-			(uuid "d2c7b895-6c44-4fc5-b8c0-19da72673f4c")
-		)
-		(pin "1"
-			(uuid "47588657-5926-41cf-bd6f-bc4afa4a84d9")
-		)
-		(pin "5"
-			(uuid "fbbcede3-6190-419e-9fb1-2317f31f42e7")
-		)
-		(pin "4"
-			(uuid "29734b5e-2d36-4cf3-ac26-bc7db14405dd")
-		)
-		(pin "6"
-			(uuid "74c12079-7bda-4bde-adab-b182121396be")
-		)
-		(pin "9"
-			(uuid "c083ec8c-058a-498d-92da-b480a2b5626a")
-		)
-		(pin "8"
-			(uuid "4ce4a952-b5f1-416e-9de4-ae79ce1323f9")
-		)
-		(pin "10"
-			(uuid "544fe2f1-f874-4c4e-b8df-495908b368db")
-		)
-		(pin "12"
-			(uuid "27115d57-b61d-4c78-a72b-742abaeb970c")
-		)
-		(pin "7"
-			(uuid "6356f34d-8688-4d63-bc6a-b4e87c4e3496")
-		)
-		(pin "14"
-			(uuid "627af937-17d4-49a1-80bb-263724bf59c0")
-		)
-		(pin "11"
-			(uuid "5c22ef06-8f7f-4d32-8e7d-5a1c52891a96")
-		)
-		(pin "13"
-			(uuid "3bd73b51-493e-4acf-a3f9-8855bbad6bd9")
-		)
-		(instances
-			(project "versorlite"
-				(path "/1a230af0-0a74-48f7-8607-b087121dda49/4d884b5c-b332-4347-90a4-1c2e65497882"
-					(reference "U8")
-					(unit 5)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 29.21 134.62 0)
+		(lib_id "power:+5V")
+		(at 43.18 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11214,9 +10076,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "eca9a74f-ef1a-48e0-83ac-d89787639b82")
-		(property "Reference" "#PWR049"
-			(at 29.21 140.97 0)
+		(uuid "e987b8d4-e1fc-46fb-b37e-39c06b05c543")
+		(property "Reference" "#PWR096"
+			(at 43.18 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11226,8 +10088,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 29.21 139.7 0)
+		(property "Value" "+5V"
+			(at 43.18 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11237,7 +10099,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 134.62 0)
+			(at 43.18 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11248,7 +10110,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 134.62 0)
+			(at 43.18 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11258,86 +10120,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 29.21 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4d1044e6-5b30-4ca0-b62a-204246144691")
-		)
-		(instances
-			(project "versorlite"
-				(path "/1a230af0-0a74-48f7-8607-b087121dda49/4d884b5c-b332-4347-90a4-1c2e65497882"
-					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 38.1 149.86 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f06efe22-ae3d-4e3a-ad2d-7482e625e21c")
-		(property "Reference" "#PWR053"
-			(at 38.1 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 38.1 154.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.1 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 38.1 149.86 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 43.18 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11348,12 +10132,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "c88805f4-eab5-4ed0-a24d-33543650151a")
+			(uuid "02cc5b72-56cd-4bb4-99f3-5dd2f663f8d2")
 		)
 		(instances
 			(project "versorlite"
 				(path "/1a230af0-0a74-48f7-8607-b087121dda49/4d884b5c-b332-4347-90a4-1c2e65497882"
-					(reference "#PWR053")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
