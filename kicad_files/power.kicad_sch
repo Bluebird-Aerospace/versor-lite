@@ -4218,7 +4218,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Schottky_Small"
+		(property "Value" "PMEG6045ETPX"
 			(at 192.786 131.826 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4229,7 +4229,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-128"
 			(at 193.04 134.62 90)
 			(hide yes)
 			(show_name no)
@@ -4473,7 +4473,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
 			(at 198.12 135.89 0)
 			(hide yes)
 			(show_name no)
