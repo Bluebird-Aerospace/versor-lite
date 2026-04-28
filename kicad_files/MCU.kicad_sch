@@ -3929,10 +3929,6 @@
 		(uuid "fca7ac8e-2d5e-4f27-89a2-db641d413718")
 	)
 	(no_connect
-		(at 250.19 132.08)
-		(uuid "019d7ba2-f5e7-4b11-955a-a8123f106e88")
-	)
-	(no_connect
 		(at 199.39 165.1)
 		(uuid "0a17e7c5-6c48-4278-a350-715e58fe37ca")
 	)
@@ -3993,12 +3989,20 @@
 		(uuid "5bf6d4fd-abfc-4212-8254-f52294d57605")
 	)
 	(no_connect
+		(at 199.39 121.92)
+		(uuid "6df76275-0598-4b7d-90ac-86d52dffd183")
+	)
+	(no_connect
 		(at 250.19 152.4)
 		(uuid "6ebf63ac-b048-44b6-865e-b140d8277f11")
 	)
 	(no_connect
 		(at 250.19 195.58)
 		(uuid "7276cee3-7a6c-41a3-ba1c-8debb2d4030f")
+	)
+	(no_connect
+		(at 250.19 93.98)
+		(uuid "73cb21a2-819e-4f78-a928-84531956d49a")
 	)
 	(no_connect
 		(at 199.39 154.94)
@@ -4015,10 +4019,6 @@
 	(no_connect
 		(at 199.39 177.8)
 		(uuid "9a904e03-cda8-4856-a127-1d4d2077a26e")
-	)
-	(no_connect
-		(at 250.19 187.96)
-		(uuid "a70c8428-07d2-4a12-bd0f-8f8ead3fd9b1")
 	)
 	(no_connect
 		(at 250.19 119.38)
@@ -5424,12 +5424,12 @@
 	)
 	(hierarchical_label "EXTI2_IMU_LOWG_GYRO"
 		(shape input)
-		(at 199.39 121.92 180)
+		(at 250.19 187.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "9d148f71-4be6-44e1-a7ac-10c1eb400f7a")
 	)
@@ -5446,7 +5446,7 @@
 	)
 	(hierarchical_label "LED_TIM2_CH1"
 		(shape input)
-		(at 250.19 93.98 0)
+		(at 250.19 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
