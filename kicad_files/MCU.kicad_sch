@@ -3997,10 +3997,6 @@
 		(uuid "6ebf63ac-b048-44b6-865e-b140d8277f11")
 	)
 	(no_connect
-		(at 250.19 137.16)
-		(uuid "6ec47fb2-03d7-4f7c-b1d4-a4d5530a0f8d")
-	)
-	(no_connect
 		(at 250.19 195.58)
 		(uuid "7276cee3-7a6c-41a3-ba1c-8debb2d4030f")
 	)
@@ -4023,10 +4019,6 @@
 	(no_connect
 		(at 250.19 187.96)
 		(uuid "a70c8428-07d2-4a12-bd0f-8f8ead3fd9b1")
-	)
-	(no_connect
-		(at 250.19 96.52)
-		(uuid "a72e63e2-01e5-4015-b9f1-c8c8c04ea8eb")
 	)
 	(no_connect
 		(at 250.19 119.38)
@@ -4057,6 +4049,10 @@
 		(uuid "c8759ada-b269-4004-9b16-84096addc387")
 	)
 	(no_connect
+		(at 199.39 127)
+		(uuid "d14e3222-8ce7-4e22-ae7d-2248f546cc11")
+	)
+	(no_connect
 		(at 199.39 170.18)
 		(uuid "d626af62-8c58-46a5-8082-6235c96adfb6")
 	)
@@ -4071,6 +4067,10 @@
 	(no_connect
 		(at 199.39 185.42)
 		(uuid "ef15b575-c2c4-41fc-a84f-1b374fe22173")
+	)
+	(no_connect
+		(at 199.39 124.46)
+		(uuid "f2aa9f85-0b52-4717-a6c8-a4f070235aba")
 	)
 	(no_connect
 		(at 250.19 149.86)
@@ -5490,12 +5490,12 @@
 	)
 	(hierarchical_label "EXTI4_MAG"
 		(shape input)
-		(at 199.39 127 180)
+		(at 250.19 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "b9b846bb-cc97-44aa-97bb-0718e2dcd485")
 	)
@@ -5523,12 +5523,12 @@
 	)
 	(hierarchical_label "EXTI3_IMU_HIGHG"
 		(shape input)
-		(at 199.39 124.46 180)
+		(at 250.19 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "d37d52fb-94e1-4dd6-be99-5b06e2ad6644")
 	)
