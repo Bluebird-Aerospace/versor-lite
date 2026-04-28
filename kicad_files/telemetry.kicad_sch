@@ -5841,7 +5841,7 @@
 		)
 		(uuid "56085d4d-68b7-4429-ba0a-9f5d6227a29c")
 	)
-	(hierarchical_label "USART2_RTS_RADIO"
+	(hierarchical_label "USART3_RTS_RADIO"
 		(shape input)
 		(at 119.38 135.89 0)
 		(effects
@@ -5874,7 +5874,7 @@
 		)
 		(uuid "7e153317-9c1e-4328-89c8-e9d85904b1fd")
 	)
-	(hierarchical_label "USART2_TX_RADIO"
+	(hierarchical_label "USART3_TX_RADIO"
 		(shape input)
 		(at 119.38 143.51 0)
 		(effects
@@ -5885,7 +5885,7 @@
 		)
 		(uuid "84865fd9-842a-4034-8a7f-6203cd843258")
 	)
-	(hierarchical_label "USART2_RX_RADIO"
+	(hierarchical_label "USART3_RX_RADIO"
 		(shape input)
 		(at 119.38 140.97 0)
 		(effects
@@ -5896,7 +5896,7 @@
 		)
 		(uuid "ac732068-f430-4ec3-bc6b-5933e4bd0b6b")
 	)
-	(hierarchical_label "USART2_CTS_RADIO"
+	(hierarchical_label "USART3_CTS_RADIO"
 		(shape input)
 		(at 119.38 138.43 0)
 		(effects

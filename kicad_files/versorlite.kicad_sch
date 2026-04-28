@@ -73,16 +73,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 134.62) (xy 171.45 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d3f1a83-16e0-4c2d-937b-bc5d21ca0154")
-	)
-	(wire
-		(pts
 			(xy 182.88 64.77) (xy 182.88 78.74)
 		)
 		(stroke
@@ -113,13 +103,13 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 137.16) (xy 171.45 137.16)
+			(xy 118.11 129.54) (xy 171.45 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "30e3f578-da9c-421c-9363-01940c517e28")
+		(uuid "29c87308-bf19-4989-9f6e-9916e90256ef")
 	)
 	(wire
 		(pts
@@ -270,6 +260,16 @@
 			(type default)
 		)
 		(uuid "7917a16f-fe7c-47a1-ac49-d7601668ae70")
+	)
+	(wire
+		(pts
+			(xy 135.89 214.63) (xy 171.45 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b217eb1-f805-4c87-92d8-30f1735da488")
 	)
 	(wire
 		(pts
@@ -440,6 +440,16 @@
 			(type default)
 		)
 		(uuid "df24a7ac-fd45-4532-bb6e-dde5b89bbae0")
+	)
+	(wire
+		(pts
+			(xy 118.11 132.08) (xy 171.45 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3447cda-20d1-449a-adfd-9da92d926c34")
 	)
 	(sheet
 		(at 30.48 60.96)
@@ -619,29 +629,29 @@
 				(justify right)
 			)
 		)
-		(pin "UART4_RX_GPS" input
-			(at 118.11 134.62 0)
-			(uuid "e501cb2e-43df-4647-a117-b470b42ef236")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "UART4_TX_GPS" input
-			(at 118.11 137.16 0)
-			(uuid "3844e676-a3a6-416e-b1bf-e0846cbca242")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "GPS_RESET" input
 			(at 118.11 139.7 0)
 			(uuid "3710919c-8df8-47c4-ab05-4e2ed3f351f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USART2_RX_GPS" input
+			(at 118.11 129.54 0)
+			(uuid "baf09a48-0444-4fe2-ab69-42dba388bf6a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USART2_TX_GPS" input
+			(at 118.11 132.08 0)
+			(uuid "889a016d-a8eb-4eed-b8a8-f05d33521799")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -811,46 +821,6 @@
 				(justify right)
 			)
 		)
-		(pin "USART2_CTS_RADIO" input
-			(at 135.89 233.68 0)
-			(uuid "05e6c0b5-f8c0-4556-8b16-ec54d830181d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "USART2_RTS_RADIO" input
-			(at 135.89 231.14 0)
-			(uuid "2379f9d4-e197-4a75-84e3-47ab4f219f08")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "USART2_RX_RADIO" input
-			(at 135.89 228.6 0)
-			(uuid "30a5f908-6185-4986-a086-e631745d7314")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "USART2_TX_RADIO" input
-			(at 135.89 226.06 0)
-			(uuid "3f1bef86-206d-4591-90ac-6212c5cc2127")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "NRST" input
 			(at 135.89 220.98 0)
 			(uuid "012c74ca-1b95-4743-b022-32a6ec82ca05")
@@ -884,6 +854,56 @@
 		(pin "RADIO_GPIO" input
 			(at 135.89 223.52 0)
 			(uuid "d2ee0108-1de6-4169-ad31-0985a81143f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SWO" input
+			(at 135.89 214.63 0)
+			(uuid "1ed87bce-f488-4a86-a6f6-bb8df287050f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USART3_CTS_RADIO" input
+			(at 135.89 233.68 0)
+			(uuid "b8599b84-206c-4179-b7c5-003285efc9b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USART3_RTS_RADIO" input
+			(at 135.89 231.14 0)
+			(uuid "46d780de-0f45-4770-913f-fa9fadaad2a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USART3_RX_RADIO" input
+			(at 135.89 228.6 0)
+			(uuid "0c070456-d3a7-49ae-b8ba-b93481844ab8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USART3_TX_RADIO" input
+			(at 135.89 226.06 0)
+			(uuid "7ea8412d-5d9e-419d-bfe7-b6a511061226")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1253,66 +1273,6 @@
 				(justify left)
 			)
 		)
-		(pin "UART4_RX_GPS" input
-			(at 171.45 134.62 180)
-			(uuid "0821470a-ba96-4de3-bc33-efa693cc51b8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "UART4_TX_GPS" input
-			(at 171.45 137.16 180)
-			(uuid "ef900a89-6170-4fa2-aecb-6869173410c7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "USART2_CTS_RADIO" input
-			(at 171.45 233.68 180)
-			(uuid "7272162b-da21-416d-b885-64c7250dce04")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "USART2_RTS_RADIO" input
-			(at 171.45 231.14 180)
-			(uuid "655a7c88-7c38-437a-a423-438e7cd530dd")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "USART2_RX_RADIO" input
-			(at 171.45 228.6 180)
-			(uuid "02604e0c-0b15-4040-a53d-fd81770eb6c2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "USART2_TX_RADIO" input
-			(at 171.45 226.06 180)
-			(uuid "205e4aff-dfec-40d0-a0c5-f880ba7b34f6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "IGN_ADC" input
 			(at 274.32 97.79 0)
 			(uuid "657ad108-9b18-4b46-976f-686483beaa6b")
@@ -1421,6 +1381,76 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "SWO" input
+			(at 171.45 214.63 180)
+			(uuid "0e14d3e1-6a90-4993-9f3d-ddeeec2f4486")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USART3_CTS_RADIO" input
+			(at 171.45 233.68 180)
+			(uuid "9fa07356-649b-487a-a97d-f07bcbea4772")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USART3_RTS_RADIO" input
+			(at 171.45 231.14 180)
+			(uuid "1c244b66-762c-4158-b70d-0014cc7de401")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USART3_RX_RADIO" input
+			(at 171.45 228.6 180)
+			(uuid "dff85dbf-c836-4921-bd72-8deea5840ba4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USART3_TX_RADIO" input
+			(at 171.45 226.06 180)
+			(uuid "4ff8f25b-d970-4d1a-bb98-0273e5efb277")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USART2_RX_GPS" input
+			(at 171.45 129.54 180)
+			(uuid "7ce7fcc1-3bca-4053-a420-16ce75a3f38e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USART2_TX_GPS" input
+			(at 171.45 132.08 180)
+			(uuid "b9307cd2-b795-4ce0-8dcb-fbf977f68130")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

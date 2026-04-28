@@ -5852,7 +5852,7 @@
 		)
 		(uuid "e0966006-f7f8-4412-8271-6dae57d77ecf")
 	)
-	(hierarchical_label "UART4_RX_GPS"
+	(hierarchical_label "USART2_RX_GPS"
 		(shape input)
 		(at 119.38 101.6 180)
 		(effects
@@ -6149,7 +6149,7 @@
 		)
 		(uuid "e90d6bd8-bda0-4f27-9f4f-ac8f923a2d97")
 	)
-	(hierarchical_label "UART4_TX_GPS"
+	(hierarchical_label "USART2_TX_GPS"
 		(shape input)
 		(at 119.38 99.06 180)
 		(effects
