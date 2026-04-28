@@ -3929,12 +3929,12 @@
 		(uuid "fca7ac8e-2d5e-4f27-89a2-db641d413718")
 	)
 	(no_connect
-		(at 199.39 165.1)
-		(uuid "0a17e7c5-6c48-4278-a350-715e58fe37ca")
+		(at 199.39 144.78)
+		(uuid "09e5fe27-c8e9-449d-8b89-67c00e66fd0e")
 	)
 	(no_connect
-		(at 250.19 139.7)
-		(uuid "0c567749-8f0c-4ceb-b79b-daf429cf7100")
+		(at 199.39 165.1)
+		(uuid "0a17e7c5-6c48-4278-a350-715e58fe37ca")
 	)
 	(no_connect
 		(at 250.19 198.12)
@@ -3951,10 +3951,6 @@
 	(no_connect
 		(at 199.39 172.72)
 		(uuid "3fc886d4-21e7-4164-b32d-8c0a09fae771")
-	)
-	(no_connect
-		(at 250.19 190.5)
-		(uuid "40e30c72-b92e-4d8a-b92a-2d775b7d2b5c")
 	)
 	(no_connect
 		(at 250.19 154.94)
@@ -4009,16 +4005,28 @@
 		(uuid "79d23063-53f5-47f3-b5d3-d61906a030f5")
 	)
 	(no_connect
+		(at 199.39 195.58)
+		(uuid "8110eb86-3ba0-41c5-b361-087ceace6fff")
+	)
+	(no_connect
+		(at 199.39 142.24)
+		(uuid "84d4d38d-c14f-4e49-8515-02dbc17a2033")
+	)
+	(no_connect
 		(at 250.19 210.82)
 		(uuid "97179660-361b-48f7-93d3-a93adaceeb60")
 	)
 	(no_connect
-		(at 199.39 167.64)
-		(uuid "9a000fa8-713e-4435-8d82-9eb16ebd6f0c")
+		(at 199.39 139.7)
+		(uuid "97a9a0da-4d82-4c90-9a62-d919ace73d4b")
 	)
 	(no_connect
 		(at 199.39 177.8)
 		(uuid "9a904e03-cda8-4856-a127-1d4d2077a26e")
+	)
+	(no_connect
+		(at 199.39 193.04)
+		(uuid "a46fcd00-4632-430f-837f-fa8609a3e499")
 	)
 	(no_connect
 		(at 250.19 119.38)
@@ -4033,16 +4041,16 @@
 		(uuid "b1836919-b9dc-478e-ae22-c2e308ec89ed")
 	)
 	(no_connect
-		(at 250.19 142.24)
-		(uuid "b5ff4bd7-fdd9-4b39-8852-c1b10631fcce")
-	)
-	(no_connect
-		(at 250.19 218.44)
-		(uuid "b612d91a-35bc-4267-bfdd-d5734af8dcf8")
-	)
-	(no_connect
 		(at 250.19 213.36)
 		(uuid "c4f5a015-1770-4b36-93a4-bc8f01f7a1bb")
+	)
+	(no_connect
+		(at 297.18 129.54)
+		(uuid "c5aee145-ee7b-4943-a713-e8f84b01d557")
+	)
+	(no_connect
+		(at 137.16 161.29)
+		(uuid "c6ff273e-c517-4e7b-9305-5b0d50d38c4a")
 	)
 	(no_connect
 		(at 199.39 175.26)
@@ -4053,16 +4061,16 @@
 		(uuid "d14e3222-8ce7-4e22-ae7d-2248f546cc11")
 	)
 	(no_connect
+		(at 199.39 147.32)
+		(uuid "d2fd79e9-730e-492c-b54f-77bb4b21e17a")
+	)
+	(no_connect
 		(at 199.39 170.18)
 		(uuid "d626af62-8c58-46a5-8082-6235c96adfb6")
 	)
 	(no_connect
 		(at 250.19 114.3)
 		(uuid "da8557db-d65f-47f3-a2b6-b343fba5adc2")
-	)
-	(no_connect
-		(at 250.19 215.9)
-		(uuid "ed6a9119-8c4a-4cee-ae35-f4218c290186")
 	)
 	(no_connect
 		(at 199.39 185.42)
@@ -5325,12 +5333,12 @@
 	)
 	(hierarchical_label "CS_IMU_LOWG_GYRO"
 		(shape input)
-		(at 199.39 139.7 180)
+		(at 250.19 215.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "500fc19f-b5f3-470b-a765-b9b58976d5ed")
 	)
@@ -5347,12 +5355,12 @@
 	)
 	(hierarchical_label "CS_IMU_LOWG_ACCEL"
 		(shape input)
-		(at 199.39 137.16 180)
+		(at 250.19 218.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "6cf7055a-d772-4566-843b-b6ca9bc47e49")
 	)
@@ -5402,7 +5410,7 @@
 	)
 	(hierarchical_label "GPS_RESET"
 		(shape input)
-		(at 199.39 193.04 180)
+		(at 199.39 137.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5435,12 +5443,12 @@
 	)
 	(hierarchical_label "CS_BARO_LOW"
 		(shape input)
-		(at 199.39 142.24 180)
+		(at 250.19 190.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "9d820e72-9b9a-4b65-ba6b-0943e28ece9f")
 	)
@@ -5534,7 +5542,7 @@
 	)
 	(hierarchical_label "IGN_SIG"
 		(shape input)
-		(at 199.39 195.58 180)
+		(at 199.39 167.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5545,12 +5553,12 @@
 	)
 	(hierarchical_label "CS_IMU_HIGHG"
 		(shape input)
-		(at 199.39 147.32 180)
+		(at 250.19 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "d47d113c-1b05-4b2a-ad44-8fab54252221")
 	)
@@ -5600,12 +5608,12 @@
 	)
 	(hierarchical_label "CS_BARO_HIGH"
 		(shape input)
-		(at 199.39 144.78 180)
+		(at 250.19 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "f2632dd9-687e-4ec7-ac30-27fede0a9142")
 	)

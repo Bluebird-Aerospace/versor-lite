@@ -914,7 +914,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "CPT-9019S-SMT:CPT-9019S-SMT"
+		(symbol "CMT-4023S-SMT-TR:CMT-4023S-SMT-TR"
 			(pin_names
 				(offset 1.016)
 			)
@@ -924,7 +924,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "LS"
-				(at -3.8155 8.9029 0)
+				(at -3.8129 8.8967 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -934,8 +934,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "CPT-9019S-SMT"
-				(at -3.8151 -11.4452 0)
+			(property "Value" "CMT-4023S-SMT-TR"
+				(at -3.8176 -11.4528 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -945,7 +945,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "CPT-9019S-SMT:CUI_CPT-9019S-SMT"
+			(property "Footprint" "CMT-4023S-SMT-TR:CUI_CMT-4023S-SMT-TR"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -968,18 +968,7 @@
 					)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MF" "Same Sky"
+			(property "Description" "4 mm, 3 Vo-p, 70 dB, Surface Mount (SMT), Magnetic Audio Transducer Buzzer"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -991,7 +980,7 @@
 					(justify bottom)
 				)
 			)
-			(property "Description_1" "9 mm, 25 Vp-p Vdc, 65 dB, Surface Mount (SMT), Piezo Audio Transducer Buzzer"
+			(property "MF" "Same Sky"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1027,7 +1016,7 @@
 					(justify bottom)
 				)
 			)
-			(property "Check_prices" "https://www.snapeda.com/parts/CPT-9019S-SMT-TR/Same+Sky/view-part/?ref=eda"
+			(property "Check_prices" "https://www.snapeda.com/parts/CMT-4023S-SMT-TR/Same+Sky/view-part/?ref=eda"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1039,7 +1028,7 @@
 					(justify bottom)
 				)
 			)
-			(property "PART_REV" "1.0"
+			(property "STANDARD" "Manufacturer recommendations"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1051,7 +1040,7 @@
 					(justify bottom)
 				)
 			)
-			(property "STANDARD" "MANUFACTURER RECOMMENDATIONS"
+			(property "PARTREV" "1.0"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1063,7 +1052,7 @@
 					(justify bottom)
 				)
 			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/CPT-9019S-SMT-TR/Same+Sky/view-part/?ref=snap"
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/CMT-4023S-SMT-TR/Same+Sky/view-part/?ref=snap"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1075,7 +1064,7 @@
 					(justify bottom)
 				)
 			)
-			(property "MP" "CPT-9019S-SMT-TR"
+			(property "MP" "CMT-4023S-SMT-TR"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1111,7 +1100,7 @@
 					(justify bottom)
 				)
 			)
-			(symbol "CPT-9019S-SMT_0_0"
+			(symbol "CMT-4023S-SMT-TR_0_0"
 				(polyline
 					(pts
 						(xy -0.635 1.27) (xy 0 1.27)
@@ -1244,22 +1233,13 @@
 						(type none)
 					)
 				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
+				(text "+"
+					(at -1.9088 1.2725 0)
+					(effects
+						(font
+							(size 1.7816 1.7816)
 						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
+						(justify left bottom)
 					)
 				)
 				(pin passive line
@@ -1272,7 +1252,25 @@
 							)
 						)
 					)
-					(number "2"
+					(number "N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "P"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -9141,221 +9139,6 @@
 		)
 	)
 	(symbol
-		(lib_id "CPT-9019S-SMT:CPT-9019S-SMT")
-		(at 45.72 46.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b5aea635-3110-485d-99c3-cd0761fa1d7d")
-		(property "Reference" "LS1"
-			(at 49.53 45.7199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CMT-4023S-SMT-TR"
-			(at 49.53 48.2599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 45.72 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 45.72 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" "Same Sky"
-			(at 45.72 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Description_1" "9 mm, 25 Vp-p Vdc, 65 dB, Surface Mount (SMT), Piezo Audio Transducer Buzzer"
-			(at 45.72 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "None"
-			(at 45.72 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 45.72 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/CPT-9019S-SMT-TR/Same+Sky/view-part/?ref=eda"
-			(at 45.72 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PART_REV" "1.0"
-			(at 45.72 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "MANUFACTURER RECOMMENDATIONS"
-			(at 45.72 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CPT-9019S-SMT-TR/Same+Sky/view-part/?ref=snap"
-			(at 45.72 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "CPT-9019S-SMT-TR"
-			(at 45.72 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 45.72 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "CUI INC"
-			(at 45.72 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "1"
-			(uuid "76e656ec-8456-4eb9-8fa9-b7e6859a2f92")
-		)
-		(pin "2"
-			(uuid "0bc63ca7-43e8-4bfb-b7e8-43491268e042")
-		)
-		(instances
-			(project "versorlite"
-				(path "/1a230af0-0a74-48f7-8607-b087121dda49/4d884b5c-b332-4347-90a4-1c2e65497882"
-					(reference "LS1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 115.57 76.2 90)
 		(unit 1)
@@ -9663,6 +9446,210 @@
 			(project "versorlite"
 				(path "/1a230af0-0a74-48f7-8607-b087121dda49/4d884b5c-b332-4347-90a4-1c2e65497882"
 					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CMT-4023S-SMT-TR:CMT-4023S-SMT-TR")
+		(at 45.72 46.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf88e5d6-a42e-4f27-9486-b83c31dc29dc")
+		(property "Reference" "LS2"
+			(at 49.53 45.5097 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CMT-4023S-SMT-TR"
+			(at 49.53 48.0497 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:CUI_CMT-4023S-SMT-TR"
+			(at 45.72 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4 mm, 3 Vo-p, 70 dB, Surface Mount (SMT), Magnetic Audio Transducer Buzzer"
+			(at 45.72 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Same Sky"
+			(at 45.72 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 45.72 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 45.72 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/CMT-4023S-SMT-TR/Same+Sky/view-part/?ref=eda"
+			(at 45.72 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer recommendations"
+			(at 45.72 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "1.0"
+			(at 45.72 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CMT-4023S-SMT-TR/Same+Sky/view-part/?ref=snap"
+			(at 45.72 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "CMT-4023S-SMT-TR"
+			(at 45.72 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 45.72 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "CUI INC"
+			(at 45.72 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "P"
+			(uuid "2fe08c9e-e05e-4f3f-b525-829baf7ef6fa")
+		)
+		(pin "N"
+			(uuid "b500dd72-5616-4041-90aa-ff13350a2a58")
+		)
+		(instances
+			(project "versorlite"
+				(path "/1a230af0-0a74-48f7-8607-b087121dda49/4d884b5c-b332-4347-90a4-1c2e65497882"
+					(reference "LS2")
 					(unit 1)
 				)
 			)
