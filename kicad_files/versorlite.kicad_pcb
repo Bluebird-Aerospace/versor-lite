@@ -21814,7 +21814,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R8"
-			(at 0 1.43 0)
+			(at 0 -1.27 0)
 			(layer "B.SilkS")
 			(uuid "6060175b-ba68-4b96-a097-6eec5e2a9e56")
 			(effects
@@ -29005,6 +29005,97 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "f9b9c080-8ca8-4f0a-8443-0636402cb057")
+	)
+	(gr_text "Olivia K"
+		(at 138.43 139.446 0)
+		(layer "B.SilkS")
+		(uuid "013d231e-c014-4014-ba34-aedcde1c8a43")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Claire J"
+		(at 138.43 140.462 0)
+		(layer "B.SilkS")
+		(uuid "a875d481-a656-4d10-a453-d55866f08a61")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Apr '26"
+		(at 138.43 141.478 0)
+		(layer "B.SilkS")
+		(uuid "e04e6bf3-e24e-4c2a-900c-91c2e7b7c4ca")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Versor Lite v0.1"
+		(at 146.558 140.97 0)
+		(layer "B.SilkS")
+		(uuid "811bfcb8-fa06-40fc-a2d9-0074177e3f4c")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Kai B"
+		(at 151.638 140.462 0)
+		(layer "B.SilkS")
+		(uuid "73627e98-cd95-4920-8f40-046caad5889d")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Charley Z"
+		(at 152.4 139.192 0)
+		(layer "B.SilkS")
+		(uuid "6b443f2c-1904-4fb8-955e-7ec15b40a752")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Nancy C"
+		(at 152.4 141.605 0)
+		(layer "B.SilkS")
+		(uuid "4d057e70-98dd-4a95-9ad3-2cf114d2d50c")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
 	)
 	(via
 		(at 157.48 140.97)
