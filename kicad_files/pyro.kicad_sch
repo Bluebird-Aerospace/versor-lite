@@ -1600,6 +1600,17 @@
 		)
 		(uuid "e998fd17-2b71-409c-8245-39e31312fdba")
 	)
+	(hierarchical_label "IGN2_SIG"
+		(shape input)
+		(at 161.29 114.3 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f9486cee-7a90-4060-8708-88bad67e78e2")
+	)
 	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 135.89 41.91 0)

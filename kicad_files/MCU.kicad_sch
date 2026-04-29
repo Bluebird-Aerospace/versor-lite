@@ -3949,10 +3949,6 @@
 		(uuid "1cc92fae-87ba-4a06-a157-729305a88b00")
 	)
 	(no_connect
-		(at 199.39 172.72)
-		(uuid "3fc886d4-21e7-4164-b32d-8c0a09fae771")
-	)
-	(no_connect
 		(at 250.19 154.94)
 		(uuid "41409033-68d1-4845-88b1-8ed3a84fe8b2")
 	)
@@ -5352,6 +5348,17 @@
 			(justify left)
 		)
 		(uuid "64a00b82-545e-47eb-8552-fe13592d2849")
+	)
+	(hierarchical_label "IGN2_SIG"
+		(shape input)
+		(at 199.39 172.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "65566060-bb4a-4fd5-b818-747a9fccb274")
 	)
 	(hierarchical_label "CS_IMU_LOWG_ACCEL"
 		(shape input)

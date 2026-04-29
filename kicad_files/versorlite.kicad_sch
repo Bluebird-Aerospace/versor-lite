@@ -143,6 +143,16 @@
 	)
 	(wire
 		(pts
+			(xy 316.23 88.9) (xy 316.23 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42847bd6-1bae-424c-87bb-05ae10714fe9")
+	)
+	(wire
+		(pts
 			(xy 135.89 223.52) (xy 171.45 223.52)
 		)
 		(stroke
@@ -440,6 +450,16 @@
 			(type default)
 		)
 		(uuid "df24a7ac-fd45-4532-bb6e-dde5b89bbae0")
+	)
+	(wire
+		(pts
+			(xy 274.32 101.6) (xy 316.23 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e86fcaca-7454-4e0d-a373-63beb9e50a52")
 	)
 	(wire
 		(pts
@@ -1453,6 +1473,16 @@
 				(justify left)
 			)
 		)
+		(pin "IGN2_SIG" input
+			(at 274.32 101.6 0)
+			(uuid "c9e30713-e5b7-4376-b408-0882c7c5e1d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "versorlite"
 				(path "/1a230af0-0a74-48f7-8607-b087121dda49"
@@ -1512,6 +1542,16 @@
 		(pin "IGN_ADC" input
 			(at 311.15 88.9 270)
 			(uuid "c492196d-fcb4-4ce1-b54d-64ec3f502a83")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IGN2_SIG" input
+			(at 316.23 88.9 270)
+			(uuid "ca67c64c-59ad-404a-8e3b-a764c036298c")
 			(effects
 				(font
 					(size 1.27 1.27)
