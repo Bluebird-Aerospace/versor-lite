@@ -7002,7 +7002,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:IPEX-SMD_BWIPX-1-001E"
+		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
 			(at 180.34 109.22 0)
 			(hide yes)
 			(show_name no)
