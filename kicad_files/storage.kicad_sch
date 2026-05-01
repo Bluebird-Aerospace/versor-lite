@@ -2127,7 +2127,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "23271533-cf39-4d92-88ed-34b2b2f97bef")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR073"
 			(at 31.75 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -2187,7 +2187,7 @@
 		(instances
 			(project "versorlite"
 				(path "/1a230af0-0a74-48f7-8607-b087121dda49/7fbeed45-b545-4efe-b68f-fc15ad17addf"
-					(reference "#PWR078")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -2305,7 +2305,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d41a46d-ebed-427d-b318-ad43e7b719f6")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR074"
 			(at 68.58 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -2366,7 +2366,7 @@
 		(instances
 			(project "versorlite"
 				(path "/1a230af0-0a74-48f7-8607-b087121dda49/7fbeed45-b545-4efe-b68f-fc15ad17addf"
-					(reference "#PWR079")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -2466,7 +2466,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a1492b3-1e48-433c-9020-8d56c18e6e3b")
-		(property "Reference" "C50"
+		(property "Reference" "C48"
 			(at 30.48 52.0762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2530,7 +2530,7 @@
 		(instances
 			(project "versorlite"
 				(path "/1a230af0-0a74-48f7-8607-b087121dda49/7fbeed45-b545-4efe-b68f-fc15ad17addf"
-					(reference "C50")
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -2547,7 +2547,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3b0be5a3-4f7e-4d90-b4be-cb6405115f8d")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR077"
 			(at 160.02 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -2607,7 +2607,7 @@
 		(instances
 			(project "versorlite"
 				(path "/1a230af0-0a74-48f7-8607-b087121dda49/7fbeed45-b545-4efe-b68f-fc15ad17addf"
-					(reference "#PWR082")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -2625,7 +2625,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ed1af5b-b172-40b3-9dc2-c2ec7532877c")
-		(property "Reference" "C52"
+		(property "Reference" "C50"
 			(at 198.12 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2689,7 +2689,7 @@
 		(instances
 			(project "versorlite"
 				(path "/1a230af0-0a74-48f7-8607-b087121dda49/7fbeed45-b545-4efe-b68f-fc15ad17addf"
-					(reference "C52")
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -2706,7 +2706,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6613aa8d-afee-429e-818c-8ab4216a5127")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR075"
 			(at 87.63 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -2766,7 +2766,7 @@
 		(instances
 			(project "versorlite"
 				(path "/1a230af0-0a74-48f7-8607-b087121dda49/7fbeed45-b545-4efe-b68f-fc15ad17addf"
-					(reference "#PWR080")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -2784,7 +2784,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75148132-a1a6-439a-9fcf-4db60c723d86")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR072"
 			(at 19.05 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -2845,7 +2845,7 @@
 		(instances
 			(project "versorlite"
 				(path "/1a230af0-0a74-48f7-8607-b087121dda49/7fbeed45-b545-4efe-b68f-fc15ad17addf"
-					(reference "#PWR077")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -2945,7 +2945,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc3ef69b-472e-422b-87ea-fff1bb1b77f3")
-		(property "Reference" "C51"
+		(property "Reference" "C49"
 			(at 38.1 52.0762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3009,7 +3009,7 @@
 		(instances
 			(project "versorlite"
 				(path "/1a230af0-0a74-48f7-8607-b087121dda49/7fbeed45-b545-4efe-b68f-fc15ad17addf"
-					(reference "C51")
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -3273,7 +3273,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "daf2eceb-8a58-4549-8259-935c559ebdf7")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR078"
 			(at 160.02 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -3333,7 +3333,7 @@
 		(instances
 			(project "versorlite"
 				(path "/1a230af0-0a74-48f7-8607-b087121dda49/7fbeed45-b545-4efe-b68f-fc15ad17addf"
-					(reference "#PWR083")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -3458,7 +3458,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df500dc7-9909-4a52-92ed-61b1cd92235f")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR076"
 			(at 124.46 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -3519,7 +3519,7 @@
 		(instances
 			(project "versorlite"
 				(path "/1a230af0-0a74-48f7-8607-b087121dda49/7fbeed45-b545-4efe-b68f-fc15ad17addf"
-					(reference "#PWR081")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
