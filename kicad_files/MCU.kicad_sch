@@ -5206,7 +5206,7 @@
 		(uuid "a6dcf56e-4ba5-477c-9a9f-3805e9eb3b95")
 	)
 	(label "OSC_OUT"
-		(at 181.61 111.76 180)
+		(at 181.61 111.76 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7435,7 +7435,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "BOOT BUTTON"
 			(at 170.18 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8296,10 +8296,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b8dcfce6-3575-41cc-be69-1b678ac75e4b")
 		(property "Reference" "R1"
-			(at 168.91 92.71 90)
+			(at 168.91 95.885 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8309,7 +8308,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 168.91 95.25 90)
+			(at 168.91 97.79 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

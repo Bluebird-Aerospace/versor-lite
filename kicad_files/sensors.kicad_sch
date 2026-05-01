@@ -12277,10 +12277,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ed197227-0018-404e-a914-1a6d007ceb89")
 		(property "Reference" "C20"
-			(at 64.7636 133.35 90)
+			(at 69.215 137.795 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

@@ -5041,7 +5041,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02_Socket"
+		(property "Value" "Battery Connector"
 			(at 226.06 152.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
