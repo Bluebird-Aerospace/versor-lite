@@ -114,8 +114,8 @@
 		(capping no)
 		(filling no)
 		(pcbplotparams
-			(layerselection 0x00000000_00000000_55555555_5755f5ff)
-			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
+			(layerselection 0x00000000_00000000_55555555_55555540)
+			(plot_on_all_layers_selection 0x00000000_00000000_00000000_02000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
 			(usegerberattributes yes)
@@ -136,18 +136,18 @@
 			(dxfusepcbnewfont yes)
 			(psnegative no)
 			(psa4output no)
-			(plot_black_and_white yes)
+			(plot_black_and_white no)
 			(sketchpadsonfab no)
-			(plotpadnumbers no)
+			(plotpadnumbers yes)
 			(hidednponfab no)
 			(sketchdnponfab yes)
 			(crossoutdnponfab yes)
 			(subtractmaskfromsilk no)
-			(outputformat 1)
+			(outputformat 5)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "/Users/kaibush/Downloads/")
 		)
 	)
 	(footprint "Diode_SMD:D_SOD-323"
@@ -31061,84 +31061,6 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "f9b9c080-8ca8-4f0a-8443-0636402cb057")
-	)
-	(gr_text "Olivia K"
-		(at 135.89 139.446 0)
-		(layer "B.SilkS")
-		(uuid "013d231e-c014-4014-ba34-aedcde1c8a43")
-		(effects
-			(font
-				(size 0.5 0.5)
-				(thickness 0.1)
-				(bold yes)
-			)
-			(justify left bottom mirror)
-		)
-	)
-	(gr_text "Claire J"
-		(at 135.89 140.462 0)
-		(layer "B.SilkS")
-		(uuid "a875d481-a656-4d10-a453-d55866f08a61")
-		(effects
-			(font
-				(size 0.5 0.5)
-				(thickness 0.1)
-				(bold yes)
-			)
-			(justify left bottom mirror)
-		)
-	)
-	(gr_text "Apr '26"
-		(at 135.89 141.478 0)
-		(layer "B.SilkS")
-		(uuid "e04e6bf3-e24e-4c2a-900c-91c2e7b7c4ca")
-		(effects
-			(font
-				(size 0.5 0.5)
-				(thickness 0.1)
-				(bold yes)
-			)
-			(justify left bottom mirror)
-		)
-	)
-	(gr_text "Kai B"
-		(at 153.67 140.462 0)
-		(layer "B.SilkS")
-		(uuid "73627e98-cd95-4920-8f40-046caad5889d")
-		(effects
-			(font
-				(size 0.5 0.5)
-				(thickness 0.1)
-				(bold yes)
-			)
-			(justify left bottom mirror)
-		)
-	)
-	(gr_text "Nancy C"
-		(at 154.178 141.478 0)
-		(layer "B.SilkS")
-		(uuid "4d057e70-98dd-4a95-9ad3-2cf114d2d50c")
-		(effects
-			(font
-				(size 0.5 0.5)
-				(thickness 0.1)
-				(bold yes)
-			)
-			(justify left bottom mirror)
-		)
-	)
-	(gr_text "Charley Z"
-		(at 154.432 139.446 0)
-		(layer "B.SilkS")
-		(uuid "6b443f2c-1904-4fb8-955e-7ec15b40a752")
-		(effects
-			(font
-				(size 0.5 0.5)
-				(thickness 0.1)
-				(bold yes)
-			)
-			(justify left bottom mirror)
-		)
 	)
 	(via
 		(at 157.48 140.97)
