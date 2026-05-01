@@ -8022,10 +8022,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "68344018-a296-49fc-8f37-85c65e3238c1")
 		(property "Reference" "U8"
-			(at 60.96 79.9398 0)
+			(at 56.515 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8035,7 +8034,7 @@
 			)
 		)
 		(property "Value" "74LVC1G125"
-			(at 60.96 82.4798 0)
+			(at 56.515 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
