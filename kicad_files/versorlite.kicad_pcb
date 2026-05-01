@@ -6014,7 +6014,7 @@
 		(at 133.35 135.89 180)
 		(descr "C&K Components, PTS 810 Series, Microminiature SMT Top Actuated, http://www.ckswitches.com/media/1476/pts810.pdf")
 		(tags "SPST Button Switch")
-		(property "Reference" "SW1"
+		(property "Reference" "EN"
 			(at 0 -2.6 0)
 			(layer "F.SilkS")
 			(uuid "d3d58ffd-f349-41c2-8bb3-97da7e36ed1a")
@@ -15057,7 +15057,7 @@
 		(at 153.2636 135.8392)
 		(descr "C&K Components, PTS 810 Series, Microminiature SMT Top Actuated, http://www.ckswitches.com/media/1476/pts810.pdf")
 		(tags "SPST Button Switch")
-		(property "Reference" "SW2"
+		(property "Reference" "RST"
 			(at 0 2.54 0)
 			(layer "F.SilkS")
 			(uuid "27af3491-de42-46ac-bc6d-ab4ea6aeb83d")
