@@ -1578,7 +1578,7 @@
 		)
 		(uuid "fcbcb1d7-ea4e-4e3f-bbac-28676e1bb000")
 	)
-	(hierarchical_label "IGN_ADC"
+	(hierarchical_label "IGN_ADC1"
 		(shape input)
 		(at 143.51 49.53 0)
 		(effects
@@ -1588,6 +1588,17 @@
 			(justify left)
 		)
 		(uuid "28e59c57-e2eb-45b2-94a7-1ba8e614445a")
+	)
+	(hierarchical_label "IGN_ADC2"
+		(shape input)
+		(at 144.78 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ac352a14-9d75-4d1a-86f4-7c13c2032c7f")
 	)
 	(hierarchical_label "IGN_SIG"
 		(shape input)

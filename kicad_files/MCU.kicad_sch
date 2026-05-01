@@ -3981,10 +3981,6 @@
 		(uuid "7276cee3-7a6c-41a3-ba1c-8debb2d4030f")
 	)
 	(no_connect
-		(at 250.19 93.98)
-		(uuid "73cb21a2-819e-4f78-a928-84531956d49a")
-	)
-	(no_connect
 		(at 199.39 154.94)
 		(uuid "79d23063-53f5-47f3-b5d3-d61906a030f5")
 	)
@@ -5237,6 +5233,17 @@
 		)
 		(uuid "31acf81e-1e79-4b74-ab9f-c869974fcf2c")
 	)
+	(hierarchical_label "IGN_ADC2"
+		(shape input)
+		(at 250.19 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "35d94a5f-45da-424c-ad5e-e7752a19c98b")
+	)
 	(hierarchical_label "BATT_READ"
 		(shape input)
 		(at 250.19 180.34 0)
@@ -5358,7 +5365,7 @@
 		)
 		(uuid "7e5ae76b-dcfd-4795-bb3e-cdec2e69c804")
 	)
-	(hierarchical_label "IGN_ADC"
+	(hierarchical_label "IGN_ADC1"
 		(shape input)
 		(at 250.19 182.88 0)
 		(effects

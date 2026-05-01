@@ -423,6 +423,16 @@
 	)
 	(wire
 		(pts
+			(xy 321.945 105.41) (xy 274.32 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5323284-071c-4216-8348-c0d4a94274e5")
+	)
+	(wire
+		(pts
 			(xy 118.11 139.7) (xy 171.45 139.7)
 		)
 		(stroke
@@ -480,6 +490,16 @@
 			(type default)
 		)
 		(uuid "f3447cda-20d1-449a-adfd-9da92d926c34")
+	)
+	(wire
+		(pts
+			(xy 321.945 88.9) (xy 321.945 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f750e030-35e5-4ca5-9bc6-2cc9557874e2")
 	)
 	(sheet
 		(at 30.48 60.96)
@@ -1313,16 +1333,6 @@
 				(justify left)
 			)
 		)
-		(pin "IGN_ADC" input
-			(at 274.32 97.79 0)
-			(uuid "657ad108-9b18-4b46-976f-686483beaa6b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "GPS_RESET" input
 			(at 171.45 139.7 180)
 			(uuid "ee76642e-1ebf-40ec-8687-9a2e2e5af448")
@@ -1513,6 +1523,26 @@
 				(justify right)
 			)
 		)
+		(pin "IGN_ADC1" input
+			(at 274.32 97.79 0)
+			(uuid "8ee96676-340c-4cbc-b27b-02c8d414feea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IGN_ADC2" input
+			(at 274.32 105.41 0)
+			(uuid "5fcc304e-bf57-4ffe-9ac8-b86fdfe3021d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "versorlite"
 				(path "/1a230af0-0a74-48f7-8607-b087121dda49"
@@ -1569,9 +1599,9 @@
 				(justify left)
 			)
 		)
-		(pin "IGN_ADC" input
-			(at 311.15 88.9 270)
-			(uuid "c492196d-fcb4-4ce1-b54d-64ec3f502a83")
+		(pin "IGN2_SIG" input
+			(at 316.23 88.9 270)
+			(uuid "ca67c64c-59ad-404a-8e3b-a764c036298c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1579,9 +1609,19 @@
 				(justify left)
 			)
 		)
-		(pin "IGN2_SIG" input
-			(at 316.23 88.9 270)
-			(uuid "ca67c64c-59ad-404a-8e3b-a764c036298c")
+		(pin "IGN_ADC1" input
+			(at 311.15 88.9 270)
+			(uuid "4e9c1276-00c5-44b1-b567-0507603a6b25")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IGN_ADC2" input
+			(at 321.945 88.9 270)
+			(uuid "052b427e-60d4-47e3-9d2e-2911297cff32")
 			(effects
 				(font
 					(size 1.27 1.27)
