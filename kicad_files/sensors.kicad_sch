@@ -4133,12 +4133,6 @@
 		(uuid "5ac3df03-26ef-404c-9014-6d7279b294d9")
 	)
 	(junction
-		(at 88.9 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5cd10bfc-9623-4122-9f08-6e945bc3751e")
-	)
-	(junction
 		(at 248.92 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4367,12 +4361,6 @@
 		(uuid "e28acfdd-5d73-4158-8e6b-613752788882")
 	)
 	(junction
-		(at 93.98 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e41df3da-f50c-4ced-8842-6197110e4b8d")
-	)
-	(junction
 		(at 175.26 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4584,7 +4572,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 45.72) (xy 93.98 48.26)
+			(xy 93.98 45.72) (xy 93.98 57.15)
 		)
 		(stroke
 			(width 0)
@@ -4634,7 +4622,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 38.1) (xy 88.9 48.26)
+			(xy 88.9 38.1) (xy 88.9 57.15)
 		)
 		(stroke
 			(width 0)
@@ -5344,16 +5332,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 48.26) (xy 88.9 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b411b88b-2c3d-4bc9-bace-228aaee093d2")
-	)
-	(wire
-		(pts
 			(xy 181.61 43.18) (xy 181.61 55.88)
 		)
 		(stroke
@@ -5381,16 +5359,6 @@
 			(type default)
 		)
 		(uuid "b8a51cae-b9b8-4ee0-91aa-d53b152111e4")
-	)
-	(wire
-		(pts
-			(xy 93.98 48.26) (xy 93.98 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb623ab7-354f-4aae-869e-26ff190b99be")
 	)
 	(wire
 		(pts
@@ -11333,86 +11301,6 @@
 			(project "versorlite"
 				(path "/1a230af0-0a74-48f7-8607-b087121dda49/11200af7-3897-4179-b08c-df8c2996a93a"
 					(reference "C31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 91.44 48.26 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b175282d-8d7b-4559-9b54-1fc7175c69ce")
-		(property "Reference" "C24"
-			(at 91.4336 41.91 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1μf"
-			(at 91.4336 44.45 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 91.44 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 91.44 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3a84ec80-a1f4-48c0-94b1-c70285950935")
-		)
-		(pin "1"
-			(uuid "3581058e-f6d8-4f9f-aa3b-862cda21eb72")
-		)
-		(instances
-			(project "versorlite"
-				(path "/1a230af0-0a74-48f7-8607-b087121dda49/11200af7-3897-4179-b08c-df8c2996a93a"
-					(reference "C24")
 					(unit 1)
 				)
 			)
