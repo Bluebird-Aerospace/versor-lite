@@ -6017,7 +6017,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "FerriteBead_Small"
+		(property "Value" "BLM21SN300SH1D"
 			(at 241.046 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6028,7 +6028,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 236.982 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -6245,7 +6245,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06a3c9ee-c8e6-453e-a3d0-df17c7933d93")
-		(property "Reference" "J3"
+		(property "Reference" "J6"
 			(at 106.68 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6482,7 +6482,7 @@
 		(instances
 			(project "versorlite"
 				(path "/1a230af0-0a74-48f7-8607-b087121dda49/4d884b5c-b332-4347-90a4-1c2e65497882"
-					(reference "J3")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -6898,7 +6898,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c387a6d-7e14-4c75-936c-ba433ceff73b")
-		(property "Reference" "J5"
+		(property "Reference" "J8"
 			(at 146.05 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7078,7 +7078,7 @@
 		(instances
 			(project "versorlite"
 				(path "/1a230af0-0a74-48f7-8607-b087121dda49/4d884b5c-b332-4347-90a4-1c2e65497882"
-					(reference "J5")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -7498,7 +7498,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a71adf3-9450-4a35-8bf4-f53d767882ea")
-		(property "Reference" "J6"
+		(property "Reference" "J9"
 			(at 201.93 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7605,7 +7605,7 @@
 		(instances
 			(project "versorlite"
 				(path "/1a230af0-0a74-48f7-8607-b087121dda49/4d884b5c-b332-4347-90a4-1c2e65497882"
-					(reference "J6")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -10142,7 +10142,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5c08120-6857-459c-bbf5-112bb5d884b4")
-		(property "Reference" "J4"
+		(property "Reference" "J7"
 			(at 133.35 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10230,7 +10230,7 @@
 		(instances
 			(project "versorlite"
 				(path "/1a230af0-0a74-48f7-8607-b087121dda49/4d884b5c-b332-4347-90a4-1c2e65497882"
-					(reference "J4")
+					(reference "J7")
 					(unit 1)
 				)
 			)

@@ -3351,7 +3351,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db2c0c94-899e-454a-a10c-8f0a666500e7")
-		(property "Reference" "J7"
+		(property "Reference" "J10"
 			(at 98.425 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3440,7 +3440,7 @@
 		(instances
 			(project "versorlite"
 				(path "/1a230af0-0a74-48f7-8607-b087121dda49/7fbeed45-b545-4efe-b68f-fc15ad17addf"
-					(reference "J7")
+					(reference "J10")
 					(unit 1)
 				)
 			)

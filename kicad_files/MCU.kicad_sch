@@ -7505,7 +7505,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8abcc918-ec8b-4af7-ad47-180eabbda229")
-		(property "Reference" "J13"
+		(property "Reference" "J2"
 			(at 159.385 151.1299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7566,7 +7566,7 @@
 		(instances
 			(project "versorlite"
 				(path "/1a230af0-0a74-48f7-8607-b087121dda49/a6e36be3-aff5-4566-a903-d81edfd88a96"
-					(reference "J13")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -7842,7 +7842,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 161.29 45.212 90)
 			(hide yes)
 			(show_name no)
@@ -8219,7 +8219,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b14ecb46-d815-402a-bef1-e2e0bc46a799")
-		(property "Reference" "J11"
+		(property "Reference" "J3"
 			(at 160.02 135.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8280,7 +8280,7 @@
 		(instances
 			(project "versorlite"
 				(path "/1a230af0-0a74-48f7-8607-b087121dda49/a6e36be3-aff5-4566-a903-d81edfd88a96"
-					(reference "J11")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -8378,7 +8378,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bed20d41-4f73-4d99-a9c9-6ee6f839d569")
-		(property "Reference" "J12"
+		(property "Reference" "J1"
 			(at 159.385 146.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8439,7 +8439,7 @@
 		(instances
 			(project "versorlite"
 				(path "/1a230af0-0a74-48f7-8607-b087121dda49/a6e36be3-aff5-4566-a903-d81edfd88a96"
-					(reference "J12")
+					(reference "J1")
 					(unit 1)
 				)
 			)
