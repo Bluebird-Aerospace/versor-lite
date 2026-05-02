@@ -211,174 +211,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_Schottky_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at -1.27 2.032 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "D_Schottky_Small"
-				(at -7.112 -2.032 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Schottky diode, small symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "D_Schottky_Small_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0.762) (xy -1.27 1.016) (xy -0.762 1.016) (xy -0.762 -1.016) (xy -0.254 -1.016) (xy -0.254 -0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Schottky_Small_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.778)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.778)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R_Small_US"
 			(pin_numbers
 				(hide yes)
@@ -848,145 +680,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3.3V"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+3.3V"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+3.3V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+9V"
 			(power global)
 			(pin_numbers
@@ -1243,44 +936,54 @@
 		)
 	)
 	(junction
-		(at 137.16 139.7)
+		(at 152.4 86.995)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "48635b56-d637-4240-9487-8dfb11d55882")
+		(uuid "06a56593-961d-41fa-babc-14a9c015d1d2")
 	)
 	(junction
-		(at 137.16 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "56066466-4e01-40fd-8d52-614a0b6e7fd0")
-	)
-	(junction
-		(at 135.89 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "839dd1dc-25b3-4ff0-a140-2df5ce3ed2f2")
-	)
-	(junction
-		(at 128.27 147.955)
+		(at 206.375 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "969c311b-adec-4daf-ab70-1a09bcdaf8e0")
 	)
 	(junction
-		(at 127 89.535)
+		(at 136.525 86.995)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1c7073e-4d1d-479c-ab3d-3f3be475b0fb")
+	)
+	(junction
+		(at 126.365 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae1e14ba-37cc-417d-abd8-042e3f71b4c6")
 	)
 	(junction
-		(at 135.89 69.85)
+		(at 216.535 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "beb951c0-1f9a-4164-886f-69d9e8536018")
+		(uuid "c2515f92-a20c-407d-a54a-a43d252e94fa")
+	)
+	(junction
+		(at 223.52 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eed54e99-3135-45c5-b626-c7ce5de55e2c")
 	)
 	(wire
 		(pts
-			(xy 128.27 147.955) (xy 128.27 145.415)
+			(xy 223.52 90.17) (xy 227.33 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0118a49a-e2f8-4a50-b267-74ffb7438c80")
+	)
+	(wire
+		(pts
+			(xy 206.375 113.03) (xy 206.375 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1290,7 +993,17 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 69.85) (xy 154.94 69.85)
+			(xy 136.525 86.995) (xy 136.525 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13116558-e3f1-4c68-8c12-80b147ab6500")
+	)
+	(wire
+		(pts
+			(xy 130.81 69.85) (xy 154.94 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1300,17 +1013,17 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 127) (xy 137.16 128.27)
+			(xy 152.4 86.995) (xy 156.21 86.995)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "27e2d35e-d04f-49b6-a667-78da75c3d1c6")
+		(uuid "279f3f4b-8414-4784-9edc-7b88781eb414")
 	)
 	(wire
 		(pts
-			(xy 127 89.535) (xy 129.54 89.535)
+			(xy 126.365 109.22) (xy 128.905 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1320,17 +1033,17 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 133.35) (xy 137.16 139.7)
+			(xy 221.615 90.17) (xy 223.52 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "32bb0e1d-f645-4359-8457-a3d3228e647b")
+		(uuid "2f9af488-d439-4942-bd27-ac9e626e9892")
 	)
 	(wire
 		(pts
-			(xy 113.03 147.955) (xy 128.27 147.955)
+			(xy 191.135 113.03) (xy 206.375 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1340,57 +1053,17 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 72.39) (xy 137.16 72.39)
+			(xy 150.495 86.995) (xy 152.4 86.995)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "60805788-45f4-422d-a1a2-997ce777f3c7")
+		(uuid "694aae83-9496-4d3c-a501-4d0383d6444e")
 	)
 	(wire
 		(pts
-			(xy 137.16 139.7) (xy 156.21 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62984e1b-c99c-4141-aa08-02b60ecdfbb1")
-	)
-	(wire
-		(pts
-			(xy 137.16 119.38) (xy 137.16 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6777d2a5-3c62-4ceb-94f2-cf756d343c16")
-	)
-	(wire
-		(pts
-			(xy 137.16 104.14) (xy 137.16 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75ac12e4-6feb-4b06-84f5-9855cc3f8425")
-	)
-	(wire
-		(pts
-			(xy 135.89 44.45) (xy 135.89 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75ca4499-cf04-4d1f-8a0a-a2c8fef96c6d")
-	)
-	(wire
-		(pts
-			(xy 132.08 139.7) (xy 137.16 139.7)
+			(xy 210.185 80.01) (xy 234.315 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1400,27 +1073,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 57.15) (xy 135.89 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b9cb9b1-2b79-4a51-ae77-3edb649dbc64")
-	)
-	(wire
-		(pts
-			(xy 138.43 142.24) (xy 138.43 142.875)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8bcea0a7-a8a8-437a-b47f-22872f9e8361")
-	)
-	(wire
-		(pts
-			(xy 111.76 89.535) (xy 127 89.535)
+			(xy 111.125 109.22) (xy 126.365 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1430,37 +1083,27 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 69.85) (xy 135.89 69.85)
+			(xy 136.525 72.39) (xy 136.525 86.995)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b2d3951e-e78c-4ab3-8912-78beca84f23a")
+		(uuid "a6fb74b5-b5f7-40df-81e3-51735099cd2f")
 	)
 	(wire
 		(pts
-			(xy 137.16 114.3) (xy 137.16 119.38)
+			(xy 136.525 72.39) (xy 130.81 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b41e13bf-c245-4baf-9df2-e7594d3e6f97")
+		(uuid "ab4ddbcd-4230-40cc-9b12-3d7a5b9ee0bc")
 	)
 	(wire
 		(pts
-			(xy 137.16 119.38) (xy 144.78 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "beb01107-fe91-484b-991d-7c1bf7c5e5f4")
-	)
-	(wire
-		(pts
-			(xy 137.16 94.615) (xy 137.16 95.25)
+			(xy 136.525 114.3) (xy 136.525 114.935)
 		)
 		(stroke
 			(width 0)
@@ -1470,7 +1113,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 142.24) (xy 138.43 142.24)
+			(xy 210.185 82.55) (xy 216.535 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1480,17 +1123,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 72.39) (xy 137.16 84.455)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8c7ef53-1b27-41e9-8297-2d90374a16e2")
-	)
-	(wire
-		(pts
-			(xy 127 89.535) (xy 127 86.995)
+			(xy 126.365 109.22) (xy 126.365 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1500,27 +1133,17 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 49.53) (xy 143.51 49.53)
+			(xy 216.535 82.55) (xy 216.535 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d49fa8bd-8f5e-41da-802d-d6922b31f56a")
+		(uuid "cc9eea91-9424-4ab4-9e8d-fecd58148dd5")
 	)
 	(wire
 		(pts
-			(xy 135.89 63.5) (xy 135.89 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd2a5dbd-6829-46d7-be4a-922e3e774922")
-	)
-	(wire
-		(pts
-			(xy 128.27 147.955) (xy 130.81 147.955)
+			(xy 206.375 113.03) (xy 208.915 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1530,27 +1153,27 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 49.53) (xy 135.89 52.07)
+			(xy 145.415 86.995) (xy 136.525 86.995)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f5dd037c-9613-4442-b729-dc36354716f5")
+		(uuid "f29d7dd8-dfd6-47e0-9b60-5a5ccd3453d2")
 	)
 	(wire
 		(pts
-			(xy 135.89 34.29) (xy 135.89 39.37)
+			(xy 216.535 90.17) (xy 216.535 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fcbcb1d7-ea4e-4e3f-bbac-28676e1bb000")
+		(uuid "fa934750-3ef9-4d88-ba50-8ddfa6a56164")
 	)
 	(wire
 		(pts
-			(xy 138.43 153.035) (xy 138.43 156.21)
+			(xy 216.535 118.11) (xy 216.535 121.285)
 		)
 		(stroke
 			(width 0)
@@ -1560,29 +1183,29 @@
 	)
 	(hierarchical_label "IGN_ADC1"
 		(shape input)
-		(at 143.51 49.53 0)
+		(at 152.4 92.075 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "28e59c57-e2eb-45b2-94a7-1ba8e614445a")
 	)
 	(hierarchical_label "IGN_ADC2"
 		(shape input)
-		(at 144.78 119.38 0)
+		(at 223.52 95.25 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "ac352a14-9d75-4d1a-86f4-7c13c2032c7f")
 	)
 	(hierarchical_label "IGN_SIG"
 		(shape input)
-		(at 111.76 89.535 180)
+		(at 111.125 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1593,7 +1216,7 @@
 	)
 	(hierarchical_label "IGN2_SIG"
 		(shape input)
-		(at 113.03 147.955 180)
+		(at 191.135 113.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1604,7 +1227,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 135.89 41.91 0)
+		(at 147.955 86.995 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1613,8 +1236,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "15084d12-cd95-434b-8468-b925705a0587")
-		(property "Reference" "R28"
-			(at 140.97 40.64 0)
+		(property "Reference" "R29"
+			(at 146.685 81.915 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1624,7 +1247,7 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 140.97 43.18 0)
+			(at 149.225 81.915 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1634,7 +1257,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 135.89 41.91 0)
+			(at 147.955 86.995 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1645,7 +1268,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 41.91 0)
+			(at 147.955 86.995 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1656,7 +1279,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 135.89 41.91 0)
+			(at 147.955 86.995 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1675,7 +1298,7 @@
 		(instances
 			(project "versorlite"
 				(path "/1a230af0-0a74-48f7-8607-b087121dda49/f02bd2f9-723f-45ac-a652-42be6cba2a93"
-					(reference "R28")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -1683,7 +1306,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 127 81.915 180)
+		(at 126.365 101.6 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1693,8 +1316,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1828ae0f-4c4b-40be-ad50-9f87b6417f77")
-		(property "Reference" "#PWR098"
-			(at 127 75.565 0)
+		(property "Reference" "#PWR094"
+			(at 126.365 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1705,7 +1328,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 126.9999 78.105 90)
+			(at 126.3649 97.79 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1716,7 +1339,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 81.915 0)
+			(at 126.365 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1727,7 +1350,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 81.915 0)
+			(at 126.365 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1738,7 +1361,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 81.915 0)
+			(at 126.365 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1754,15 +1377,15 @@
 		(instances
 			(project "versorlite"
 				(path "/1a230af0-0a74-48f7-8607-b087121dda49/f02bd2f9-723f-45ac-a652-42be6cba2a93"
-					(reference "#PWR098")
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 127 142.24 180)
+		(lib_id "power:GND")
+		(at 161.29 86.995 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1771,9 +1394,10 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "274479d3-c9e4-49bb-92a1-d780a90363a8")
-		(property "Reference" "J13"
-			(at 127 133.35 0)
+		(uuid "18eeee5f-b5b1-4ec0-937d-ffeccd427df6")
+		(property "Reference" "#PWR097"
+			(at 167.64 86.995 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1782,18 +1406,19 @@
 				)
 			)
 		)
-		(property "Value" "IGN_2"
-			(at 127 135.89 0)
+		(property "Value" "GND"
+			(at 165.1 86.9949 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x02_P4.6mm_D0.9mm_OD2.1mm"
-			(at 127 142.24 0)
+		(property "Footprint" ""
+			(at 161.29 86.995 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1804,7 +1429,163 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 142.24 0)
+			(at 161.29 86.995 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 161.29 86.995 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1057583b-ac5f-4936-b4e4-f9d4d7730836")
+		)
+		(instances
+			(project "versorlite"
+				(path "/1a230af0-0a74-48f7-8607-b087121dda49/f02bd2f9-723f-45ac-a652-42be6cba2a93"
+					(reference "#PWR097")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 229.87 90.17 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "20ab62b4-1bdc-4474-86ff-daf8a89edad7")
+		(property "Reference" "R35"
+			(at 228.6 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.6kΩ"
+			(at 231.14 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 229.87 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 229.87 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c3d23ea9-4de9-4b92-8a0e-9595232fbd3a")
+		)
+		(pin "1"
+			(uuid "91d84b6a-af6c-42e8-a0a1-f975915313bd")
+		)
+		(instances
+			(project "versorlite"
+				(path "/1a230af0-0a74-48f7-8607-b087121dda49/f02bd2f9-723f-45ac-a652-42be6cba2a93"
+					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 205.105 82.55 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "274479d3-c9e4-49bb-92a1-d780a90363a8")
+		(property "Reference" "J12"
+			(at 205.105 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IGN_2"
+			(at 205.105 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x02_P4.6mm_D0.9mm_OD2.1mm"
+			(at 205.105 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.105 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1815,7 +1596,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 127 142.24 0)
+			(at 205.105 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1834,7 +1615,7 @@
 		(instances
 			(project "versorlite"
 				(path "/1a230af0-0a74-48f7-8607-b087121dda49/f02bd2f9-723f-45ac-a652-42be6cba2a93"
-					(reference "J13")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -1842,7 +1623,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 138.43 156.21 0)
+		(at 216.535 121.285 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1852,8 +1633,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "277488bc-344a-4d1c-9a23-59e6e16f942e")
-		(property "Reference" "#PWR097"
-			(at 138.43 162.56 0)
+		(property "Reference" "#PWR099"
+			(at 216.535 127.635 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1864,7 +1645,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 138.43 161.29 0)
+			(at 216.535 126.365 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1874,7 +1655,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 156.21 0)
+			(at 216.535 121.285 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1885,7 +1666,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 156.21 0)
+			(at 216.535 121.285 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1896,7 +1677,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 138.43 156.21 0)
+			(at 216.535 121.285 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1912,7 +1693,7 @@
 		(instances
 			(project "versorlite"
 				(path "/1a230af0-0a74-48f7-8607-b087121dda49/f02bd2f9-723f-45ac-a652-42be6cba2a93"
-					(reference "#PWR097")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -1930,7 +1711,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a62bbbb-2aab-49e4-bce1-7b7dd4c66e78")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR096"
 			(at 151.13 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -1991,7 +1772,7 @@
 		(instances
 			(project "versorlite"
 				(path "/1a230af0-0a74-48f7-8607-b087121dda49/f02bd2f9-723f-45ac-a652-42be6cba2a93"
-					(reference "#PWR0100")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -1999,7 +1780,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:AO3400A")
-		(at 135.89 147.955 0)
+		(at 213.995 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2009,7 +1790,7 @@
 		(dnp no)
 		(uuid "2f413183-a850-47bf-b11a-4d8c16d5af34")
 		(property "Reference" "Q2"
-			(at 142.24 147.955 90)
+			(at 220.345 113.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2020,7 +1801,7 @@
 			)
 		)
 		(property "Value" "AO3400A"
-			(at 134.112 141.351 90)
+			(at 212.217 106.426 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2030,7 +1811,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 140.97 149.86 0)
+			(at 219.075 114.935 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2043,7 +1824,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
-			(at 140.97 151.765 0)
+			(at 219.075 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2055,7 +1836,7 @@
 			)
 		)
 		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
-			(at 135.89 147.955 0)
+			(at 213.995 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2084,168 +1865,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 137.16 130.81 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3980ea4f-4205-4b1a-93d2-6074be6f380a")
-		(property "Reference" "R31"
-			(at 142.24 129.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1kΩ"
-			(at 142.24 132.08 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 137.16 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 137.16 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e7bd9ae5-e7b6-433b-ba6f-1cfa342ee402")
-		)
-		(pin "1"
-			(uuid "6a79ca7c-46af-416d-97ac-61eaf321b9d8")
-		)
-		(instances
-			(project "versorlite"
-				(path "/1a230af0-0a74-48f7-8607-b087121dda49/f02bd2f9-723f-45ac-a652-42be6cba2a93"
-					(reference "R31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky_Small")
-		(at 135.89 54.61 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3a06a589-47c6-4c0a-bb61-339680e474d9")
-		(property "Reference" "D7"
-			(at 138.43 53.5939 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "CUS10S30,H3F"
-			(at 138.43 56.134 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 135.89 54.61 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 54.61 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Schottky diode, small symbol"
-			(at 135.89 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8b926726-99ba-4aa2-bb7c-1c66936cc1d3")
-		)
-		(pin "2"
-			(uuid "f8d78e46-45d6-4ad3-8c1d-15a50a9c2bbf")
-		)
-		(instances
-			(project "versorlite"
-				(path "/1a230af0-0a74-48f7-8607-b087121dda49/f02bd2f9-723f-45ac-a652-42be6cba2a93"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 137.16 95.25 0)
+		(at 136.525 114.935 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2256,7 +1877,7 @@
 		(fields_autoplaced yes)
 		(uuid "5342daf3-7f95-42dc-9cb6-965f314c7c56")
 		(property "Reference" "#PWR095"
-			(at 137.16 101.6 0)
+			(at 136.525 121.285 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2267,7 +1888,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 137.16 100.33 0)
+			(at 136.525 120.015 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2277,7 +1898,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 95.25 0)
+			(at 136.525 114.935 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2288,7 +1909,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 95.25 0)
+			(at 136.525 114.935 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2299,7 +1920,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 137.16 95.25 0)
+			(at 136.525 114.935 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2322,85 +1943,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 135.89 34.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "54464bd9-6e4a-49fd-8602-3742a4b3eb38")
-		(property "Reference" "#PWR094"
-			(at 135.89 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V_MAIN"
-			(at 135.636 29.972 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 135.89 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2448e650-bedd-4ea2-aa1a-26bf27be4003")
-		)
-		(instances
-			(project "versorlite"
-				(path "/1a230af0-0a74-48f7-8607-b087121dda49/f02bd2f9-723f-45ac-a652-42be6cba2a93"
-					(reference "#PWR094")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 128.27 140.335 180)
+		(at 206.375 105.41 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2410,8 +1954,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6596b77a-e16b-483a-9f7f-060a9a5152a0")
-		(property "Reference" "#PWR099"
-			(at 128.27 133.985 0)
+		(property "Reference" "#PWR098"
+			(at 206.375 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2422,7 +1966,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 128.2699 136.525 90)
+			(at 206.3749 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2433,7 +1977,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 140.335 0)
+			(at 206.375 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2444,7 +1988,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 140.335 0)
+			(at 206.375 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2455,7 +1999,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 128.27 140.335 0)
+			(at 206.375 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2471,7 +2015,86 @@
 		(instances
 			(project "versorlite"
 				(path "/1a230af0-0a74-48f7-8607-b087121dda49/f02bd2f9-723f-45ac-a652-42be6cba2a93"
-					(reference "#PWR099")
+					(reference "#PWR098")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 219.075 90.17 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "66ccc4c3-a7b4-47a1-bfbc-30089d767d7e")
+		(property "Reference" "R33"
+			(at 217.805 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 220.345 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 219.075 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.075 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 219.075 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bdbd4732-d04e-4139-b0fd-c07076c9c99a")
+		)
+		(pin "1"
+			(uuid "3c07a0be-fa41-41fe-8583-6e9a5abec603")
+		)
+		(instances
+			(project "versorlite"
+				(path "/1a230af0-0a74-48f7-8607-b087121dda49/f02bd2f9-723f-45ac-a652-42be6cba2a93"
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -2479,7 +2102,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:AO3400A")
-		(at 134.62 89.535 0)
+		(at 133.985 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2489,7 +2112,7 @@
 		(dnp no)
 		(uuid "6c866030-9977-4933-9e2a-4375aba77e02")
 		(property "Reference" "Q1"
-			(at 140.97 89.535 90)
+			(at 140.335 109.22 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2500,7 +2123,7 @@
 			)
 		)
 		(property "Value" "AO3400A"
-			(at 132.842 82.931 90)
+			(at 132.207 102.616 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2510,7 +2133,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 139.7 91.44 0)
+			(at 139.065 111.125 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2523,7 +2146,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
-			(at 139.7 93.345 0)
+			(at 139.065 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2535,7 +2158,7 @@
 			)
 		)
 		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
-			(at 134.62 89.535 0)
+			(at 133.985 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2564,8 +2187,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 137.16 104.14 0)
+		(lib_id "Device:R_Small_US")
+		(at 223.52 92.71 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2573,10 +2196,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "6ff84584-8ede-4cd7-ae7c-ad4fada8f713")
-		(property "Reference" "#PWR096"
-			(at 137.16 107.95 0)
-			(hide yes)
+		(uuid "7c846865-33d2-4eaa-8943-05f944dd4b62")
+		(property "Reference" "R34"
+			(at 218.44 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2585,8 +2207,8 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V_MAIN"
-			(at 136.906 99.822 0)
+		(property "Value" "1kΩ"
+			(at 218.44 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2595,8 +2217,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 137.16 104.14 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 223.52 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2607,7 +2229,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 104.14 0)
+			(at 223.52 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2617,8 +2239,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 137.16 104.14 0)
+		(property "Description" "Resistor, small US symbol"
+			(at 223.52 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2627,22 +2249,25 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "2"
+			(uuid "d4b8198c-123b-494c-a48b-5f754f45d866")
 		)
 		(pin "1"
-			(uuid "23c172a1-ed86-4ce9-a7e8-f1e50e6e37e9")
+			(uuid "e10018e3-4123-4ec6-aa24-88770c7b6e84")
 		)
 		(instances
 			(project "versorlite"
 				(path "/1a230af0-0a74-48f7-8607-b087121dda49/f02bd2f9-723f-45ac-a652-42be6cba2a93"
-					(reference "#PWR096")
+					(reference "R34")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky_Small")
-		(at 137.16 124.46 90)
+		(lib_id "Device:R_Small_US")
+		(at 158.75 86.995 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2650,31 +2275,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "730c20b0-4f19-42ca-8277-7cadd7c63af1")
-		(property "Reference" "D8"
-			(at 139.7 123.4439 90)
+		(uuid "b9d2ccb1-a71d-4e13-bdb6-4f5c32a6a2f4")
+		(property "Reference" "R31"
+			(at 157.48 81.915 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "CUS10S30,H3F"
-			(at 139.7 125.984 90)
+		(property "Value" "5.6kΩ"
+			(at 160.02 81.915 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 137.16 124.46 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 158.75 86.995 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2685,7 +2308,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 124.46 90)
+			(at 158.75 86.995 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2695,8 +2318,8 @@
 				)
 			)
 		)
-		(property "Description" "Schottky diode, small symbol"
-			(at 137.16 124.46 0)
+		(property "Description" "Resistor, small US symbol"
+			(at 158.75 86.995 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2705,17 +2328,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "3fd5667e-671b-41bd-a86d-778e89b320f9")
 		)
 		(pin "2"
-			(uuid "73d375f7-88f4-461a-b7c7-68eb6a63673d")
+			(uuid "12cc3070-37ad-4a5d-90ef-3654d63e8df2")
+		)
+		(pin "1"
+			(uuid "0abe046e-de41-4bf3-a92f-258712ea32cf")
 		)
 		(instances
 			(project "versorlite"
 				(path "/1a230af0-0a74-48f7-8607-b087121dda49/f02bd2f9-723f-45ac-a652-42be6cba2a93"
-					(reference "D8")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -2733,7 +2356,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9fe6db6-086c-40fd-bd68-693f83828986")
-		(property "Reference" "J12"
+		(property "Reference" "J11"
 			(at 125.73 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2795,7 +2418,7 @@
 		(instances
 			(project "versorlite"
 				(path "/1a230af0-0a74-48f7-8607-b087121dda49/f02bd2f9-723f-45ac-a652-42be6cba2a93"
-					(reference "J12")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -2803,86 +2426,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 137.16 111.76 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "baff9f9f-b20d-4140-ac0b-421288b95215")
-		(property "Reference" "R30"
-			(at 142.24 110.49 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10kΩ"
-			(at 142.24 113.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 137.16 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 137.16 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "df19c2b0-b007-4f33-bbad-3c2e32a751d6")
-		)
-		(pin "1"
-			(uuid "5a9c81e0-696b-4a4b-b00e-e331a7047bc9")
-		)
-		(instances
-			(project "versorlite"
-				(path "/1a230af0-0a74-48f7-8607-b087121dda49/f02bd2f9-723f-45ac-a652-42be6cba2a93"
-					(reference "R30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 128.27 142.875 180)
+		(at 206.375 107.95 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2891,8 +2435,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bcbed867-a817-44ab-8f3e-05f7a6d768b9")
-		(property "Reference" "R35"
-			(at 121.92 142.875 90)
+		(property "Reference" "R32"
+			(at 200.025 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2902,7 +2446,7 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 124.46 142.875 90)
+			(at 202.565 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2912,7 +2456,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 128.27 142.875 0)
+			(at 206.375 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2923,7 +2467,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 142.875 0)
+			(at 206.375 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2934,7 +2478,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 128.27 142.875 0)
+			(at 206.375 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2953,7 +2497,7 @@
 		(instances
 			(project "versorlite"
 				(path "/1a230af0-0a74-48f7-8607-b087121dda49/f02bd2f9-723f-45ac-a652-42be6cba2a93"
-					(reference "R35")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -2961,7 +2505,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 135.89 60.96 0)
+		(at 152.4 89.535 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2970,8 +2514,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bd5958dd-d2f9-42a3-84b8-92bd38d1151f")
-		(property "Reference" "R29"
-			(at 140.97 59.69 0)
+		(property "Reference" "R30"
+			(at 147.32 90.805 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2981,7 +2525,7 @@
 			)
 		)
 		(property "Value" "1kΩ"
-			(at 140.97 62.23 0)
+			(at 147.32 88.265 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2990,8 +2534,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 135.89 60.96 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 152.4 89.535 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3002,7 +2546,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 60.96 0)
+			(at 152.4 89.535 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3013,7 +2557,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 135.89 60.96 0)
+			(at 152.4 89.535 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3032,7 +2576,7 @@
 		(instances
 			(project "versorlite"
 				(path "/1a230af0-0a74-48f7-8607-b087121dda49/f02bd2f9-723f-45ac-a652-42be6cba2a93"
-					(reference "R29")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -3040,7 +2584,7 @@
 	)
 	(symbol
 		(lib_id "power:+9V")
-		(at 156.21 139.7 270)
+		(at 234.315 80.01 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3051,7 +2595,7 @@
 		(fields_autoplaced yes)
 		(uuid "e1186bfe-4271-4c1d-8bcf-f5d2b56b79a6")
 		(property "Reference" "#PWR0101"
-			(at 152.4 139.7 0)
+			(at 230.505 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3062,7 +2606,7 @@
 			)
 		)
 		(property "Value" "+9V"
-			(at 160.02 139.6999 90)
+			(at 238.125 80.0099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3073,7 +2617,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 139.7 0)
+			(at 234.315 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3084,7 +2628,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 139.7 0)
+			(at 234.315 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3095,7 +2639,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+9V\""
-			(at 156.21 139.7 0)
+			(at 234.315 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3119,7 +2663,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 127 84.455 180)
+		(at 126.365 104.14 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3128,8 +2672,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e642220b-2b62-411d-905f-8d0d438c9ef6")
-		(property "Reference" "R34"
-			(at 120.65 84.455 90)
+		(property "Reference" "R28"
+			(at 120.015 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3139,7 +2683,7 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 123.19 84.455 90)
+			(at 122.555 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3149,7 +2693,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 127 84.455 0)
+			(at 126.365 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3160,7 +2704,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 84.455 0)
+			(at 126.365 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3171,7 +2715,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 127 84.455 0)
+			(at 126.365 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3190,7 +2734,86 @@
 		(instances
 			(project "versorlite"
 				(path "/1a230af0-0a74-48f7-8607-b087121dda49/f02bd2f9-723f-45ac-a652-42be6cba2a93"
-					(reference "R34")
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 232.41 90.17 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb267609-8b7e-4996-9a1a-af0fab8de0d2")
+		(property "Reference" "#PWR0100"
+			(at 238.76 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 236.22 90.1699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 232.41 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7ae60865-9a7d-479d-a5d4-c141e2d4fa88")
+		)
+		(instances
+			(project "versorlite"
+				(path "/1a230af0-0a74-48f7-8607-b087121dda49/f02bd2f9-723f-45ac-a652-42be6cba2a93"
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
