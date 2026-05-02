@@ -3866,12 +3866,6 @@
 		(uuid "34884b7b-c7e7-44ff-911e-4cc61fb88184")
 	)
 	(junction
-		(at 190.5 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "417f363e-b9ac-484f-9827-7d6685620da1")
-	)
-	(junction
 		(at 38.1 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3996,12 +3990,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6dcee19-2969-4feb-880c-02a16db1b232")
-	)
-	(junction
-		(at 187.96 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a85f9ae7-4918-4a9f-a8f2-85cfaac1d490")
 	)
 	(junction
 		(at 209.55 72.39)
@@ -4367,7 +4355,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 109.22) (xy 199.39 109.22)
+			(xy 182.88 109.22) (xy 199.39 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4947,7 +4935,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 110.49) (xy 181.61 110.49)
+			(xy 181.61 110.49) (xy 199.39 110.49)
 		)
 		(stroke
 			(width 0)
@@ -4997,16 +4985,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 110.49) (xy 199.39 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df768fa9-b764-4898-982a-fac4de245675")
-	)
-	(wire
-		(pts
 			(xy 219.71 80.01) (xy 219.71 83.82)
 		)
 		(stroke
@@ -5014,16 +4992,6 @@
 			(type default)
 		)
 		(uuid "e1c18d2a-eb93-4519-9b6c-a40402caef74")
-	)
-	(wire
-		(pts
-			(xy 182.88 109.22) (xy 187.96 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1fdf704-96be-4904-96c7-e5e5f8b759e9")
 	)
 	(wire
 		(pts
@@ -5841,7 +5809,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "30pf"
+		(property "Value" "33pf"
 			(at 40.64 62.2362 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6455,88 +6423,6 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 187.96 106.68 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4291c457-3b72-4d7d-ade3-db2c23023cb8")
-		(property "Reference" "C7"
-			(at 190.5 105.4162 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10pF"
-			(at 190.5 107.9562 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 187.96 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 187.96 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6312fcfd-5a49-4d80-b2ba-edc7bdd58e7b")
-		)
-		(pin "1"
-			(uuid "6f4b7d7a-57d0-4b91-9a72-73df922d2a89")
-		)
-		(instances
-			(project "versorlite"
-				(path "/1a230af0-0a74-48f7-8607-b087121dda49/a6e36be3-aff5-4566-a903-d81edfd88a96"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
 		(at 170.18 69.85 0)
 		(unit 1)
 		(body_style 1)
@@ -6611,88 +6497,6 @@
 			(project "versorlite"
 				(path "/1a230af0-0a74-48f7-8607-b087121dda49/a6e36be3-aff5-4566-a903-d81edfd88a96"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 190.5 113.03 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "46f1d9a0-73ec-4f3b-a53a-0b4b70805f94")
-		(property "Reference" "C10"
-			(at 193.04 111.7535 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10pF"
-			(at 193.04 114.2935 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 190.5 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 190.5 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6ccb6ec8-ae77-4762-9d71-ad4a4c006099")
-		)
-		(pin "1"
-			(uuid "02a13a31-88ec-4ed7-9558-7c1a79671165")
-		)
-		(instances
-			(project "versorlite"
-				(path "/1a230af0-0a74-48f7-8607-b087121dda49/a6e36be3-aff5-4566-a903-d81edfd88a96"
-					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -7172,84 +6976,6 @@
 			(project "versorlite"
 				(path "/1a230af0-0a74-48f7-8607-b087121dda49/a6e36be3-aff5-4566-a903-d81edfd88a96"
 					(reference "C17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 187.96 104.14 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7cc9509b-c07b-4906-aeaf-9b030dd63af1")
-		(property "Reference" "#PWR010"
-			(at 187.96 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 187.96 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 187.96 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d0eddf38-518b-450b-8bae-e735d948bfb7")
-		)
-		(instances
-			(project "versorlite"
-				(path "/1a230af0-0a74-48f7-8607-b087121dda49/a6e36be3-aff5-4566-a903-d81edfd88a96"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -9002,7 +8728,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "30pf"
+		(property "Value" "33pf"
 			(at 53.34 62.2362 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9216,84 +8942,6 @@
 			(project "versorlite"
 				(path "/1a230af0-0a74-48f7-8607-b087121dda49/a6e36be3-aff5-4566-a903-d81edfd88a96"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 190.5 115.57 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e92f837c-f1d9-4bea-8dd4-c7d726767ea9")
-		(property "Reference" "#PWR011"
-			(at 190.5 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 190.5 120.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "87f2d309-a872-4767-9240-b4bf209b639b")
-		)
-		(instances
-			(project "versorlite"
-				(path "/1a230af0-0a74-48f7-8607-b087121dda49/a6e36be3-aff5-4566-a903-d81edfd88a96"
-					(reference "#PWR011")
 					(unit 1)
 				)
 			)
