@@ -7,4 +7,5 @@
 	(lib (name "BM10B-GHS-TBT_LF__SN__N_") (type "KiCad") (uri "${KIPRJMOD}/libraries/symbols/BM10B-GHS-TBT_LF__SN__N_.kicad_sym") (options "") (descr ""))
 	(lib (name "CPT-9019S-SMT") (type "KiCad") (uri "${KIPRJMOD}/libraries/symbols/CPT-9019S-SMT.kicad_sym") (options "") (descr ""))
 	(lib (name "CMT-4023S-SMT-TR") (type "KiCad") (uri "${KIPRJMOD}/libraries/symbols/CMT-4023S-SMT-TR.kicad_sym") (options "") (descr ""))
+	(lib (name "SM10B-GHS-TB") (type "KiCad") (uri "${KIPRJMOD}/libraries/symbols/SM10B-GHS-TB.kicad_sym") (options "") (descr ""))
 )
