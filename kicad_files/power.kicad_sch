@@ -4241,7 +4241,7 @@
 				)
 			)
 		)
-		(property "Value" "CIGW252010GL4R7MNE, 4.7uH"
+		(property "Value" "Inductor 4.7uH"
 			(at 93.98 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
