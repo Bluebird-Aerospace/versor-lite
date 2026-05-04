@@ -611,7 +611,7 @@
 				)
 			)
 		)
-		(property "Value" "10kΩ"
+		(property "Value" "100kΩ"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "681746a4-3e2e-43a2-8a02-614d18a40241")
@@ -903,18 +903,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C161691"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "9cc22132-22ae-4c19-80e6-cbb5327c5d26")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -4837,7 +4825,7 @@
 				)
 			)
 		)
-		(property "Value" "10kΩ"
+		(property "Value" "100kΩ"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "fee39090-eb05-4a42-bea7-0f4d3310be44")
@@ -5429,7 +5417,7 @@
 				)
 			)
 		)
-		(property "Value" "5.6kΩ"
+		(property "Value" "56kΩ"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "bd6fefac-c036-4bb3-aea6-0160281e2bdc")
@@ -6056,6 +6044,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2286"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b0a958a0-5fc6-4b68-9c9d-057150e50fda")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -6829,18 +6828,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C2683602"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "784e3585-4094-47e8-a12c-c1ba4ea85bde")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -13853,7 +13840,7 @@
 				)
 			)
 		)
-		(property "Value" "5.6kΩ"
+		(property "Value" "56kΩ"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "af3f96ee-2a24-4f76-a416-efbb2c72c5b8")
@@ -17426,7 +17413,7 @@
 		(at 137.795 104.4824 -90)
 		(descr "Inductor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "inductor")
-		(property "Reference" "FB2"
+		(property "Reference" "BLM18AG601SZ1D1"
 			(at 0.0132 1.778 90)
 			(layer "B.SilkS")
 			(uuid "3dafed51-934c-4866-aeee-eeeb56cc5e58")
