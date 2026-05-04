@@ -1537,34 +1537,39 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Switching:AP63205WU"
+		(symbol "TPS54331DR:TPS54331DR"
+			(pin_names
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at -7.62 6.35 0)
+				(at -12.7 13.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "AP63205WU"
-				(at 2.54 6.35 0)
+			(property "Value" "TPS54331DR"
+				(at -12.7 -16.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
-				(at 0 -22.86 0)
+			(property "Footprint" "TPS54331DR:SOIC127P599X175-8N"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1572,9 +1577,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
-			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1585,7 +1591,7 @@
 					)
 				)
 			)
-			(property "Description" "2A, 1.1MHz Buck DC/DC Converter, fixed 5.0V output voltage, TSOT-23-6"
+			(property "Description" "3.5V to 28V Input, 3A, 570kHz Step-Down Converter with Eco-mode"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1594,9 +1600,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
-			(property "ki_keywords" "2A Buck DC/DC"
+			(property "MF" "Texas Instruments"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1605,9 +1612,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
-			(property "ki_fp_filters" "TSOT?23*"
+			(property "Package" "SOIC-8 Texas Instruments"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1616,126 +1624,233 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
-			(symbol "AP63205WU_0_1"
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPS54331DR/Texas+Instruments/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "TPS54331DR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=490779&manufacturer=Texas Instruments&part_name=TPS54331DR&search_term=tps54331dr"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/TPS54331DR/Texas+Instruments/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "TPS54331DR_0_0"
 				(rectangle
-					(start -7.62 5.08)
-					(end 7.62 -5.08)
+					(start -12.7 -12.7)
+					(end 12.7 12.7)
 					(stroke
-						(width 0.254)
+						(width 0.41)
 						(type default)
 					)
 					(fill
 						(type background)
 					)
 				)
-			)
-			(symbol "AP63205WU_1_1"
 				(pin input line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "FB"
+					(at -17.78 10.16 0)
+					(length 5.08)
+					(name "BOOT"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin input line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "EN"
+					(at -17.78 0 0)
+					(length 5.08)
+					(name "VIN"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin power_in line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "IN"
+				(pin input line
+					(at -17.78 7.62 0)
+					(length 5.08)
+					(name "EN"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
+				(pin input line
+					(at -17.78 2.54 0)
+					(length 5.08)
+					(name "SS"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "4"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin output line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "SW"
+				(pin input line
+					(at -17.78 -2.54 0)
+					(length 5.08)
+					(name "VSENSE"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "5"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "BST"
+				(pin output line
+					(at 17.78 10.16 180)
+					(length 5.08)
+					(name "COMP"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "6"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -10.16 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 5.08 0)
+					(length 5.08)
+					(name "PH"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -2434,10 +2549,10 @@
 		(uuid "428377da-4682-4056-ac82-54fa9d8adf7c")
 	)
 	(junction
-		(at 142.24 134.62)
+		(at 168.91 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6940dc93-ac8b-4339-aaef-5da4dfd1cfd2")
+		(uuid "5f2b7c1e-668b-48c9-b448-11c2293a03f4")
 	)
 	(junction
 		(at 50.8 46.99)
@@ -2510,12 +2625,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd225383-3798-4252-bf87-4cc2520132b7")
-	)
-	(junction
-		(at 105.41 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d916c772-c1e3-481e-b01b-497d00159f25")
 	)
 	(junction
 		(at 33.02 146.05)
@@ -2621,16 +2730,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 134.62) (xy 116.84 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29dd5ee1-5ffe-4bee-9160-ec84d439c6c0")
-	)
-	(wire
-		(pts
 			(xy 50.8 73.66) (xy 50.8 57.15)
 		)
 		(stroke
@@ -2671,16 +2770,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 129.54) (xy 142.24 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "359d0b52-6095-4ca8-ac89-128998543e3f")
-	)
-	(wire
-		(pts
 			(xy 40.64 100.33) (xy 40.64 106.68)
 		)
 		(stroke
@@ -2711,13 +2800,13 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 121.92) (xy 168.91 147.32)
+			(xy 97.79 151.13) (xy 112.395 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3ff6eebb-a597-4fbd-aa94-c5722d72c4cc")
+		(uuid "463f7f10-d506-4218-811c-ed28cf24b326")
 	)
 	(wire
 		(pts
@@ -2751,6 +2840,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 147.32) (xy 168.91 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5358a68e-1385-46d4-a7ff-2089ba35c371")
+	)
+	(wire
+		(pts
 			(xy 48.26 90.17) (xy 50.8 90.17)
 		)
 		(stroke
@@ -2761,7 +2860,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 134.62) (xy 148.59 134.62)
+			(xy 137.16 134.62) (xy 148.59 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2911,16 +3010,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 129.54) (xy 142.24 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f9d62e1-dfa9-4cc5-9a2b-ad2a34c0df98")
-	)
-	(wire
-		(pts
 			(xy 48.26 100.33) (xy 50.8 100.33)
 		)
 		(stroke
@@ -2981,16 +3070,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 132.08) (xy 116.84 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "995ccc77-6275-4834-9cac-044bf05ca2ea")
-	)
-	(wire
-		(pts
 			(xy 72.39 133.35) (xy 72.39 139.7)
 		)
 		(stroke
@@ -3008,16 +3087,6 @@
 			(type default)
 		)
 		(uuid "a9410be2-5a61-4c85-9813-a6d023877d82")
-	)
-	(wire
-		(pts
-			(xy 105.41 139.7) (xy 116.84 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae5b933c-bbc5-4ad6-9f9b-896dc73e7baf")
 	)
 	(wire
 		(pts
@@ -3051,6 +3120,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 156.21) (xy 112.395 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba9e68bc-dab3-4a34-80b2-357a74c5d902")
+	)
+	(wire
+		(pts
 			(xy 148.59 125.73) (xy 148.59 121.92)
 		)
 		(stroke
@@ -3081,16 +3160,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 138.43) (xy 105.41 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4378def-7acb-4aee-86f0-ae5ae6af076e")
-	)
-	(wire
-		(pts
 			(xy 212.09 149.86) (xy 219.71 149.86)
 		)
 		(stroke
@@ -3098,6 +3167,16 @@
 			(type default)
 		)
 		(uuid "c4fdabd8-f17c-46d9-b85f-4fae462b266e")
+	)
+	(wire
+		(pts
+			(xy 168.91 121.92) (xy 168.91 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c50aa5f4-bf40-4514-a9e3-ef04bb97e608")
 	)
 	(wire
 		(pts
@@ -3148,16 +3227,6 @@
 			(type default)
 		)
 		(uuid "cfcc4215-147b-455f-9699-4086568a546c")
-	)
-	(wire
-		(pts
-			(xy 105.41 133.35) (xy 105.41 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1b7f62c-2bf8-41f5-9281-a7d77e399d3d")
 	)
 	(wire
 		(pts
@@ -3231,6 +3300,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.955 171.45) (xy 168.91 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e32f691a-f4cd-469c-84af-cb48d67f8711")
+	)
+	(wire
+		(pts
 			(xy 158.75 130.81) (xy 158.75 134.62)
 		)
 		(stroke
@@ -3268,16 +3347,6 @@
 			(type default)
 		)
 		(uuid "f16c7aee-2151-4e21-a580-41d310eb58b4")
-	)
-	(wire
-		(pts
-			(xy 137.16 134.62) (xy 142.24 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1aab786-a874-4037-b034-be87431f2460")
 	)
 	(wire
 		(pts
@@ -3339,6 +3408,16 @@
 		)
 		(uuid "4d386963-cd36-42c5-a4a3-d2ce209100d6")
 	)
+	(label "BuckVIN"
+		(at 137.16 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "677409f1-0318-496f-bd27-ed8b6dfd26e8")
+	)
 	(label "VOUT"
 		(at 36.83 143.51 180)
 		(effects
@@ -3358,6 +3437,16 @@
 			(justify right bottom)
 		)
 		(uuid "72e1585c-e112-4687-8da8-232e44315572")
+	)
+	(label "BuckVIN"
+		(at 112.395 161.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "77477906-1a05-4869-814e-edba338bc96f")
 	)
 	(label "VOUT"
 		(at 44.45 128.27 90)
@@ -3858,7 +3947,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 105.41 135.89 180)
+		(at 97.79 153.67 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3869,7 +3958,7 @@
 		(fields_autoplaced yes)
 		(uuid "1ade3c27-94be-4b07-85eb-c3f7b79343ca")
 		(property "Reference" "C55"
-			(at 107.95 134.6135 0)
+			(at 100.33 152.3935 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3880,7 +3969,7 @@
 			)
 		)
 		(property "Value" "100nf"
-			(at 107.95 137.1535 0)
+			(at 100.33 154.9335 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3891,7 +3980,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 105.41 135.89 0)
+			(at 97.79 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3902,7 +3991,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 135.89 0)
+			(at 97.79 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3913,7 +4002,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 105.41 135.89 0)
+			(at 97.79 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5336,98 +5425,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Switching:AP63205WU")
-		(at 127 132.08 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9276bd54-cca4-4793-83d8-8e687d0cc0ac")
-		(property "Reference" "U13"
-			(at 127 139.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AP63205WU"
-			(at 127 142.24 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
-			(at 127 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf"
-			(at 127 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "2A, 1.1MHz Buck DC/DC Converter, fixed 5.0V output voltage, TSOT-23-6"
-			(at 127 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "4d412c0c-8710-4e4e-8155-74cf562e9543")
-		)
-		(pin "1"
-			(uuid "715b61cd-6bf5-479e-b5b9-d388be364938")
-		)
-		(pin "4"
-			(uuid "ff09a466-6270-4f3b-bcc9-d8071f4f6d05")
-		)
-		(pin "5"
-			(uuid "10631ae6-2604-4790-abc8-e20bdc01e0e3")
-		)
-		(pin "6"
-			(uuid "0dfd7322-2742-48e6-ac1f-a993e325a6ab")
-		)
-		(pin "2"
-			(uuid "b472aaed-b4c1-4a0d-b969-95c59227445d")
-		)
-		(instances
-			(project "versorlite"
-				(path "/1a230af0-0a74-48f7-8607-b087121dda49/31c1824a-552d-4de4-ae9b-4526af07be04"
-					(reference "U13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 72.39 130.81 0)
 		(unit 1)
@@ -5823,6 +5820,202 @@
 			(project "versorlite"
 				(path "/1a230af0-0a74-48f7-8607-b087121dda49/31c1824a-552d-4de4-ae9b-4526af07be04"
 					(reference "#PWR089")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TPS54331DR:TPS54331DR")
+		(at 130.175 161.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aec5a597-4bb7-4858-94db-c739fed66366")
+		(property "Reference" "U14"
+			(at 130.175 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS54331DR"
+			(at 130.175 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:SOIC127P599X175-8N"
+			(at 130.175 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.175 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "3.5V to 28V Input, 3A, 570kHz Step-Down Converter with Eco-mode"
+			(at 130.175 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 130.175 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "SOIC-8 Texas Instruments"
+			(at 130.175 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 130.175 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPS54331DR/Texas+Instruments/view-part/?ref=snap"
+			(at 130.175 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "TPS54331DR"
+			(at 130.175 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=490779&manufacturer=Texas Instruments&part_name=TPS54331DR&search_term=tps54331dr"
+			(at 130.175 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 130.175 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TPS54331DR/Texas+Instruments/view-part/?ref=eda"
+			(at 130.175 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "8a264594-e614-4327-a48f-3cabc2633345")
+		)
+		(pin "2"
+			(uuid "8d7917c4-4b1f-4671-993d-66ccc585927f")
+		)
+		(pin "5"
+			(uuid "64ced403-1283-40b6-b51c-ddab3e84a566")
+		)
+		(pin "4"
+			(uuid "4e31b0c4-cb9d-44ba-8a88-2e393f7dfbf1")
+		)
+		(pin "3"
+			(uuid "87fdf652-6a9a-4a6a-8942-0f693ad88035")
+		)
+		(pin "8"
+			(uuid "ecb9efed-3357-4c7f-a567-729759bf3f4c")
+		)
+		(pin "7"
+			(uuid "4e08616e-2201-4534-86d5-d47d33dd1cba")
+		)
+		(pin "6"
+			(uuid "4dc2722d-cae5-4851-82a7-bbc15a666870")
+		)
+		(instances
+			(project "versorlite"
+				(path "/1a230af0-0a74-48f7-8607-b087121dda49/31c1824a-552d-4de4-ae9b-4526af07be04"
+					(reference "U14")
 					(unit 1)
 				)
 			)
