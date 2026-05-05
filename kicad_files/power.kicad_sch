@@ -1025,8 +1025,8 @@
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "TPS2121"
+				(at 0 8.128 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1078,14 +1078,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-				(text "TPS2121"
-					(at -0.254 8.382 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
 					)
 				)
 				(pin power_out line
@@ -4505,8 +4497,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 48.26 140.97 0)
+		(property "Value" "TPS2121"
+			(at 48.26 149.098 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6213,7 +6205,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "93b0da2e-59ae-4667-b273-ee4e4b91fd88")
 		(property "Reference" "R24"
 			(at 34.29 132.08 90)

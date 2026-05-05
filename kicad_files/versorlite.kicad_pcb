@@ -7749,6 +7749,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C15639"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a0b24e1c-c646-4868-8f88-488494ccd025")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "LGA*3x5mm*P1.25mm*")
 		(path "/11200af7-3897-4179-b08c-df8c2996a93a/b45621c0-283c-473b-a210-a0058fd224d9")
 		(sheetname "/Sensors/")
@@ -10230,6 +10241,17 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "010aefb3-3ce4-4f7e-bb24-e4d6500acd16")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2056298"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "fccd0c39-a207-4f77-9e0f-4ced11a76f8c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21613,6 +21635,17 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C194919"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "9f51f8a7-db9d-4ea4-a968-e24701bc9064")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "Bosch*LGA*4.5x3mm?P0.5mm*ClockwisePinNumbering*")
 		(path "/11200af7-3897-4179-b08c-df8c2996a93a/33146b3c-439d-4cd9-84a9-512381a949ef")
 		(sheetname "/Sensors/")
@@ -22792,7 +22825,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "TPS2121"
 			(at 4.1896 -2.1746 0)
 			(layer "B.Fab")
 			(uuid "1f1a9407-6b2d-4bca-81ac-2289bc1a1ff7")
@@ -22826,6 +22859,17 @@
 					(size 1.27 1.27)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C2156025"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "26c287c2-46b6-4b33-8c19-da5e443c97b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(path "/31c1824a-552d-4de4-ae9b-4526af07be04/2377eb75-6828-4d78-b7d1-2d37268da125")
@@ -27320,6 +27364,17 @@
 					(size 1.27 1.27)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C401671"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "def8eb27-4fdf-47ce-8c59-492027840477")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "*SOIC*5.3x5.3mm*P1.27mm*")
