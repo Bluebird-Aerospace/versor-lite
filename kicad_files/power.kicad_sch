@@ -2778,6 +2778,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 152.4) (xy 212.09 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19a59a24-c160-4395-ad62-3edb7c75aac9")
+	)
+	(wire
+		(pts
 			(xy 36.83 106.68) (xy 40.64 106.68)
 		)
 		(stroke
@@ -3118,7 +3128,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 134.62) (xy 210.82 134.62)
+			(xy 195.58 134.62) (xy 199.39 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3155,16 +3165,6 @@
 			(type default)
 		)
 		(uuid "7a93a033-303a-4cc0-83ae-0840c93fa5b7")
-	)
-	(wire
-		(pts
-			(xy 200.025 152.4) (xy 201.295 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c11f995-5576-42f8-9585-05c5e8d0adb5")
 	)
 	(wire
 		(pts
@@ -3255,16 +3255,6 @@
 			(type default)
 		)
 		(uuid "8f35587c-81d5-4504-8765-7ba8bf8703db")
-	)
-	(wire
-		(pts
-			(xy 208.915 152.4) (xy 212.09 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f55eb26-8612-4a68-ab1a-d6427f8c50b5")
 	)
 	(wire
 		(pts
@@ -3395,6 +3385,16 @@
 			(type default)
 		)
 		(uuid "b30cf204-f231-4236-9474-172454fb932d")
+	)
+	(wire
+		(pts
+			(xy 207.01 134.62) (xy 210.82 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4bbc82e-d68d-41de-a033-dac9ff6fdba7")
 	)
 	(wire
 		(pts
@@ -3992,7 +3992,7 @@
 	)
 	(symbol
 		(lib_id "power:+9V")
-		(at 200.025 152.4 90)
+		(at 209.55 152.4 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4003,7 +4003,7 @@
 		(fields_autoplaced yes)
 		(uuid "12896353-c27d-4419-bf05-63b135c9dca8")
 		(property "Reference" "#PWR090"
-			(at 203.835 152.4 0)
+			(at 213.36 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4014,7 +4014,7 @@
 			)
 		)
 		(property "Value" "+9V"
-			(at 196.215 152.3999 90)
+			(at 205.74 152.3999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4025,7 +4025,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.025 152.4 0)
+			(at 209.55 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4036,7 +4036,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.025 152.4 0)
+			(at 209.55 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4047,7 +4047,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+9V\""
-			(at 200.025 152.4 0)
+			(at 209.55 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4396,7 +4396,7 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse")
-		(at 205.105 152.4 270)
+		(at 203.2 134.62 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4407,7 +4407,7 @@
 		(fields_autoplaced yes)
 		(uuid "208b2672-4042-4b5e-b167-9784ba733526")
 		(property "Reference" "F1"
-			(at 205.105 146.05 90)
+			(at 203.2 128.27 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4416,8 +4416,8 @@
 				)
 			)
 		)
-		(property "Value" "MF-LSMF330X-2"
-			(at 205.105 148.59 90)
+		(property "Value" "BSMD1206-200-16V"
+			(at 203.2 130.81 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4426,8 +4426,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_Bourns_MF-SM_7.98x5.44mm"
-			(at 200.025 153.67 0)
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
+			(at 198.12 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4439,7 +4439,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.105 152.4 0)
+			(at 203.2 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4450,7 +4450,7 @@
 			)
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
-			(at 205.105 152.4 0)
+			(at 203.2 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
