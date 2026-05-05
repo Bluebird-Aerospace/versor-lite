@@ -851,16 +851,6 @@
 				(justify right)
 			)
 		)
-		(pin "BUZZ_TIM9_CH1" input
-			(at 135.89 201.93 0)
-			(uuid "355903d4-775d-403d-a209-87f1da677740")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "+VBUS" input
 			(at 135.89 265.43 0)
 			(uuid "1483df54-cb7a-4999-aeb2-8a583b5282af")
@@ -964,6 +954,16 @@
 		(pin "USART3_TX_RADIO" input
 			(at 135.89 226.06 0)
 			(uuid "7ea8412d-5d9e-419d-bfe7-b6a511061226")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BUZZ_TIM8_CH4" input
+			(at 135.89 201.93 0)
+			(uuid "5bc5f487-caa8-457f-8a78-19e7321664a8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1263,16 +1263,6 @@
 				(justify left)
 			)
 		)
-		(pin "BUZZ_TIM9_CH1" input
-			(at 171.45 201.93 180)
-			(uuid "a236b960-aced-4aca-87df-27eca2b6b291")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "BATT_READ" input
 			(at 274.32 203.2 0)
 			(uuid "39123a15-7fc0-4b88-8853-6cf8d77d9723")
@@ -1541,6 +1531,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "BUZZ_TIM8_CH4" input
+			(at 171.45 201.93 180)
+			(uuid "08cc73d4-10f2-4d37-9b14-526615c9e6e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

@@ -1,5 +1,5 @@
 
-(footprint CUI_CPT-9019S-SMT (layer F.Cu) (tedit 69E10DBD)
+(footprint CUI_CPT-9019S-SMT (layer F.Cu) (tedit 69F954E0)
   (descr "")
   (attr smd)
   (fp_text reference REF** (at -0.6353 -7.24235 0) (layer F.SilkS)
