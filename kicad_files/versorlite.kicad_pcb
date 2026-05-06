@@ -3551,6 +3551,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "40ed88e6-786f-47d0-bfdf-7bb84624f958")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "PinHeader?2x05?P1.27mm*")
 		(path "/4d884b5c-b332-4347-90a4-1c2e65497882/f5c08120-6857-459c-bbf5-112bb5d884b4")
 		(sheetname "/Telemetry/")
@@ -10230,6 +10241,17 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "010aefb3-3ce4-4f7e-bb24-e4d6500acd16")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C12345"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b866ed18-7be2-4d59-bb33-022505375ec1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27234,6 +27256,17 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C97521"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "dbf3a196-eb49-4c26-9062-3e145e0584f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "*SOIC*5.3x5.3mm*P1.27mm*")
 		(path "/7fbeed45-b545-4efe-b68f-fc15ad17addf/24ba96d9-0c4d-4d8e-9dc2-5c18f95e0876")
 		(sheetname "/Storage/")
@@ -28857,6 +28890,17 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C53113973"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "dfa73b28-5acb-43c5-b966-0a17f0bcc9c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
