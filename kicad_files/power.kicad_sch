@@ -4091,7 +4091,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PMEG6045ETPX"
+		(property "Value" "SS54"
 			(at 192.786 131.826 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4102,7 +4102,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-128"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 193.04 134.62 90)
 			(hide yes)
 			(show_name no)
