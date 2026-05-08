@@ -2331,6 +2331,18 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "071db105-aeb5-48df-a793-e29ab714070b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(attr board_only exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -6387,6 +6399,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d9c892cb-87cb-4871-8fff-ba6e7bc1b604")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C221895"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "40f8d470-747d-4b58-9871-ad5734ecbeb5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12163,6 +12187,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.8 -1.58)
@@ -12282,6 +12307,7 @@
 				(pins "1" "2")
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
@@ -14612,6 +14638,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C221895"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6282c04a-8c22-44b0-a20d-94371c7664fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/a6e36be3-aff5-4566-a903-d81edfd88a96/10da1850-e0d0-411a-a21d-2f81b333e217")
 		(sheetname "/MCU/")
 		(sheetfile "MCU.kicad_sch")
@@ -15675,6 +15713,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.8 -1.58)
@@ -15942,6 +15981,7 @@
 				(pins "1" "2")
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
@@ -16096,6 +16136,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.8 -1.58)
@@ -16667,6 +16708,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
