@@ -4940,7 +4940,7 @@
 		(fields_autoplaced yes)
 		(uuid "47a2a39b-7fb9-4beb-9368-5bf8c2dde1d9")
 		(property "Reference" "D6"
-			(at 96.774 150.1139 90)
+			(at 96.52 150.1139 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4950,8 +4950,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D_Schottky_Small"
-			(at 96.774 152.6539 90)
+		(property "Value" "Buckdiode"
+			(at 96.52 152.6539 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
