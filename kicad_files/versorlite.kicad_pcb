@@ -6346,7 +6346,7 @@
 		(at 133.35 135.89 180)
 		(descr "C&K Components, PTS 810 Series, Microminiature SMT Top Actuated, http://www.ckswitches.com/media/1476/pts810.pdf")
 		(tags "SPST Button Switch")
-		(property "Reference" "SW1"
+		(property "Reference" "BOOT1"
 			(at 0 -2.6 0)
 			(layer "F.SilkS")
 			(uuid "d3d58ffd-f349-41c2-8bb3-97da7e36ed1a")
@@ -10236,7 +10236,7 @@
 				(pins "14" "94" "21" "12" "13" "97" "98" "1" "2" "3" "4" "5" "38" "39"
 					"40" "41" "42" "43" "44" "45" "46" "81" "82" "83" "84" "85" "86" "87"
 					"88" "55" "56" "57" "58" "59" "60" "61" "62" "49" "73" "6" "11" "19"
-					"28" "74" "10" "99" "27" "50" "20" "75" "100" "22" "23" "24" "25" "26"
+					"28" "10" "99" "27" "74" "50" "20" "75" "100" "22" "23" "24" "25" "26"
 					"29" "30" "31" "32" "67" "68" "69" "70" "71" "72" "76" "77" "35" "36"
 					"37" "89" "90" "91" "92" "93" "95" "96" "47" "48" "51" "52" "53" "54"
 					"15" "16" "17" "18" "33" "34" "63" "64" "65" "66" "78" "79" "80" "7"
@@ -12163,7 +12163,6 @@
 				(pins "1")
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.8 -1.58)
@@ -12283,7 +12282,6 @@
 				(pins "1" "2")
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
@@ -14566,7 +14564,7 @@
 		(at 153.2636 135.8392)
 		(descr "C&K Components, PTS 810 Series, Microminiature SMT Top Actuated, http://www.ckswitches.com/media/1476/pts810.pdf")
 		(tags "SPST Button Switch")
-		(property "Reference" "SW2"
+		(property "Reference" "NRST1"
 			(at 0 2.54 0)
 			(layer "F.SilkS")
 			(uuid "27af3491-de42-46ac-bc6d-ab4ea6aeb83d")
@@ -15677,7 +15675,6 @@
 				(pins "1")
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.8 -1.58)
@@ -15945,7 +15942,6 @@
 				(pins "1" "2")
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
@@ -16100,7 +16096,6 @@
 				(pins "1")
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.8 -1.58)
@@ -16672,7 +16667,6 @@
 				(pins "1")
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -25676,6 +25670,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)

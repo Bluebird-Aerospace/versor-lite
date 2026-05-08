@@ -5898,7 +5898,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10da1850-e0d0-411a-a21d-2f81b333e217")
-		(property "Reference" "SW2"
+		(property "Reference" "NRST1"
 			(at 184.15 87.6299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5962,7 +5962,7 @@
 		(instances
 			(project "versorlite"
 				(path "/1a230af0-0a74-48f7-8607-b087121dda49/a6e36be3-aff5-4566-a903-d81edfd88a96"
-					(reference "SW2")
+					(reference "NRST1")
 					(unit 1)
 				)
 			)
@@ -7248,7 +7248,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "807ed289-a0b6-4b5e-8fb3-e6080dc91c11")
-		(property "Reference" "SW1"
+		(property "Reference" "BOOT1"
 			(at 170.18 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7310,7 +7310,7 @@
 		(instances
 			(project "versorlite"
 				(path "/1a230af0-0a74-48f7-8607-b087121dda49/a6e36be3-aff5-4566-a903-d81edfd88a96"
-					(reference "SW1")
+					(reference "BOOT1")
 					(unit 1)
 				)
 			)
