@@ -3122,6 +3122,24 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at -3.81 -15.24 90)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at 0 -15.24 90)
 					(length 3.81)
@@ -4283,6 +4301,12 @@
 		(uuid "c2beba13-bac5-44ad-b2cf-d58d78b9f3a8")
 	)
 	(junction
+		(at 245.11 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5dc8fc8-7a2e-4ccd-b5df-d40348cd922f")
+	)
+	(junction
 		(at 83.82 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5394,6 +5418,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 87.63) (xy 241.3 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7099f26-2e13-4311-a733-dbc82b3f8d1e")
+	)
+	(wire
+		(pts
 			(xy 78.74 48.26) (xy 78.74 57.15)
 		)
 		(stroke
@@ -5681,6 +5715,16 @@
 			(type default)
 		)
 		(uuid "f406fbcf-754f-471c-b486-434ed7563238")
+	)
+	(wire
+		(pts
+			(xy 241.3 91.44) (xy 245.11 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7f58092-fb85-4d43-b1cc-e351b0bff6db")
 	)
 	(wire
 		(pts
@@ -11176,28 +11220,25 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "afd94cd9-3074-46a0-b947-2081e9e27b8b")
 		(property "Reference" "U7"
-			(at 247.2533 86.36 0)
+			(at 243.84 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "LSM6DSM"
-			(at 247.2533 88.9 0)
+		(property "Value" "LSM6DSV320X"
+			(at 243.84 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Package_LGA:LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y"
@@ -11275,6 +11316,9 @@
 		)
 		(pin "4"
 			(uuid "13d318ca-4a3f-4b80-a763-32eca885fcb0")
+		)
+		(pin "7"
+			(uuid "2ea85de4-f745-493a-942e-2300bc451c53")
 		)
 		(instances
 			(project "versorlite"

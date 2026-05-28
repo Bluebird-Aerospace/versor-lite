@@ -6406,18 +6406,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C221895"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "40f8d470-747d-4b58-9871-ad5734ecbeb5")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/a6e36be3-aff5-4566-a903-d81edfd88a96/807ed289-a0b6-4b5e-8fb3-e6080dc91c11")
 		(sheetname "/MCU/")
 		(sheetfile "MCU.kicad_sch")
@@ -10260,7 +10248,7 @@
 				(pins "14" "94" "21" "12" "13" "97" "98" "1" "2" "3" "4" "5" "38" "39"
 					"40" "41" "42" "43" "44" "45" "46" "81" "82" "83" "84" "85" "86" "87"
 					"88" "55" "56" "57" "58" "59" "60" "61" "62" "49" "73" "6" "11" "19"
-					"28" "10" "99" "27" "74" "50" "20" "75" "100" "22" "23" "24" "25" "26"
+					"28" "74" "10" "99" "27" "50" "20" "75" "100" "22" "23" "24" "25" "26"
 					"29" "30" "31" "32" "67" "68" "69" "70" "71" "72" "76" "77" "35" "36"
 					"37" "89" "90" "91" "92" "93" "95" "96" "47" "48" "51" "52" "53" "54"
 					"15" "16" "17" "18" "33" "34" "63" "64" "65" "66" "78" "79" "80" "7"
@@ -12187,7 +12175,6 @@
 				(pins "1")
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.8 -1.58)
@@ -12307,7 +12294,6 @@
 				(pins "1" "2")
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
@@ -14638,18 +14624,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C221895"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "6282c04a-8c22-44b0-a20d-94371c7664fe")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/a6e36be3-aff5-4566-a903-d81edfd88a96/10da1850-e0d0-411a-a21d-2f81b333e217")
 		(sheetname "/MCU/")
 		(sheetfile "MCU.kicad_sch")
@@ -15713,7 +15687,6 @@
 				(pins "1")
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.8 -1.58)
@@ -15981,7 +15954,6 @@
 				(pins "1" "2")
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
@@ -16136,7 +16108,6 @@
 				(pins "1")
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.8 -1.58)
@@ -16708,7 +16679,6 @@
 				(pins "1")
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -25704,18 +25674,6 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C64982"
-			(at 0 0 0)
-			(layer "B.SilkS")
-			(hide yes)
-			(uuid "26343522-3835-4429-99d7-582fc6e659bf")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/31c1824a-552d-4de4-ae9b-4526af07be04/47a2a39b-7fb9-4beb-9368-5bf8c2dde1d9")
 		(sheetname "/Power/")
@@ -28035,7 +27993,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "LSM6DSM"
+		(property "Value" "LSM6DSV320X"
 			(at 0 -2.2 90)
 			(layer "B.Fab")
 			(uuid "691ef75e-9286-4d0e-8e59-190fa3c58c79")
@@ -28071,6 +28029,18 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C26633007"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "30701f1f-84ad-416a-9eef-f8bfcbc300a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LGA*3x2.5mm*P0.5mm*LayoutBorder3x4y*")
 		(path "/11200af7-3897-4179-b08c-df8c2996a93a/afd94cd9-3074-46a0-b947-2081e9e27b8b")
 		(sheetname "/Sensors/")
@@ -28078,7 +28048,7 @@
 		(units
 			(unit
 				(name "A")
-				(pins "11" "1" "2" "3" "10" "14" "13" "12" "5" "6" "7" "8" "4" "9")
+				(pins "11" "1" "2" "3" "10" "14" "13" "12" "7" "5" "6" "8" "4" "9")
 			)
 		)
 		(attr smd)
