@@ -682,7 +682,7 @@
         "uuid": "1a230af0-0a74-48f7-8607-b087121dda49"
       }
     ],
-    "used_designators": "LS2,BOOT1,NRST1,U14",
+    "used_designators": "LS2,BOOT1,NRST1,U11,U14-15",
     "variants": []
   },
   "sheets": [
